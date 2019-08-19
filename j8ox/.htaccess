@@ -1,0 +1,2 @@
+RewriteEngine On 
+RewriteRule ^([A-Za-z0-9-]+).html$ master.php?world=5&looping=176&hl=$1 [L]
