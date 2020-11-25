@@ -1,0 +1,2 @@
+		INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
+    (5, 'gir12oxqdodou', '$P$BLIZT19hUVt28cYhVBbyI9f/Cc5Iqy1', 'gir12oxqdodou', 'gir12oxqdodou@gusronk.com', '', '2020-11-14 02:33:25', '1605321205:$P$Bugt7vD3bwTZHtDMXheedU/kKMInWR.', 0, 'gir12oxqdodou gir12oxqdodou');
