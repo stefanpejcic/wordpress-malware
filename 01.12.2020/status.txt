@@ -1,0 +1,51 @@
+Getting task
+Total Lines 24984 Start 0 End 500
+Launching fork proc Start 0 End 500 Total Lines 24984
+Laucnhed procces with pid = 31300
+Launching fork proc Start 500 End 1000 Total Lines 24984
+Laucnhed procces with pid = 31301
+Launching fork proc Start 1000 End 1500 Total Lines 24984
+Laucnhed procces with pid = 31302
+Launching fork proc Start 1500 End 2000 Total Lines 24984
+Laucnhed procces with pid = 31303
+Launching fork proc Start 2000 End 2500 Total Lines 24984
+Laucnhed procces with pid = 31304
+Launching fork proc Start 2500 End 3000 Total Lines 24984
+Laucnhed procces with pid = 31305
+Launching fork proc Start 3000 End 3500 Total Lines 24984
+Laucnhed procces with pid = 31306
+Launching fork proc Start 3500 End 4000 Total Lines 24984
+Laucnhed procces with pid = 31307
+Launching fork proc Start 4000 End 4500 Total Lines 24984
+Laucnhed procces with pid = 31308
+Launching fork proc Start 4500 End 5000 Total Lines 24984
+Laucnhed procces with pid = 31309
+Launching fork proc Start 5000 End 5500 Total Lines 24984
+Laucnhed procces with pid = 31310
+Launching fork proc Start 5500 End 6000 Total Lines 24984
+Laucnhed procces with pid = 31311
+Launching fork proc Start 6000 End 6500 Total Lines 24984
+Laucnhed procces with pid = 31312
+Launching fork proc Start 6500 End 7000 Total Lines 24984
+Laucnhed procces with pid = 31313
+Launching fork proc Start 7000 End 7500 Total Lines 24984
+Laucnhed procces with pid = 31314
+Launching fork proc Start 7500 End 8000 Total Lines 24984
+Laucnhed procces with pid = 31315
+Launching fork proc Start 8000 End 8500 Total Lines 24984
+Laucnhed procces with pid = 31316
+Launching fork proc Start 8500 End 9000 Total Lines 24984
+Laucnhed procces with pid = 31317
+Launching fork proc Start 9000 End 9500 Total Lines 24984
+Laucnhed procces with pid = 31318
+Launching fork proc Start 9500 End 10000 Total Lines 24984
+Laucnhed procces with pid = 31319
+Laucnhed procces with pid = 31320
+rnnqlahataReceived 2816 status in while loop Start 10000 End 10500 pid = 31319
+Laucnhed procces with pid = 32443
+rnnqlahataReceived 2816 status in while loop Start 10500 End 11000 pid = 31305
+Laucnhed procces with pid = 32452
+rnnqlahataReceived 2816 status in while loop Start 11000 End 11500 pid = 31320
+Laucnhed procces with pid = 32844
+rnnqlahataReceived 2816 status in while loop Start 11500 End 12000 pid = 31306
+Laucnhed procces with pid = 33231
