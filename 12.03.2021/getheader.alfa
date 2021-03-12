@@ -1,0 +1,49 @@
+#!/usr/bin/sh
+USEFUL=(gcc lcc cc ld make php perl python ruby tar gzip bzip bzialfa2 nc locate suidperl)
+DOWNLOADERS=(wget fetch lynx links curl get lwp-mirror)
+echo -e '{"useful":[\c'
+for i in ${USEFUL[@]}; do
+    which=$(which $i)
+	[[ ! -z "$which" ]] && echo -e \"$i\",'\c',
+done
+echo -e "\"\"],\c"
+echo -e '"downloader":[\c'
+for i in ${DOWNLOADERS[@]}; do
+    which=$(which $i)
+	[[ ! -z "$which" ]] && echo -e \"$i\",'\c',
+done
+echo -e "\"\"],\c"
+echo -e '"uname":["'$(uname -a | cut -c1-120)'"],\c'
+echo -e '"userid":["'$(stat -c "%u [ %U ]" "$0")'"],\c'
+echo -e '"groupid":["'$(stat -c "%g [ %G ]" "$0")'"],\c'
+echo -e '"domains":["\c'
+VIRTUAL_DOMAINS="/etc/virtual/domainowners"
+NAMED_CONF="/etc/named.conf"
+VALIASES="/etc/valiases/"
+VAR_NAMED="/var/named/"
+if [[ -e "$VIRTUAL_DOMAINS" ]]; then
+	if [[ -r "$VIRTUAL_DOMAINS" ]]; then
+		echo -e $(awk 'END{print NR}' $VIRTUAL_DOMAINS) "domains\c"
+ 	elif [[ -r "/etc/virtual/" ]]; then
+		echo -e $(ls "/etc/virtual/" | wc -l) "domains\c"
+	elif [[ -r "$NAMED_CONF" ]]; then
+		echo -e $(awk 'END{print NR}' $NAMED_CONF) "domains\c"
+	else
+		echo -e "Cant Read [ /etc/named.conf ]\c"
+	fi
+elif [[ -e "$NAMED_CONF" ]] && [[ -e "$VALIASES" ]] && [[ -e "$VAR_NAMED" ]]; then
+	if [[ -r "$VALIASES" ]]; then
+		echo -e $(ls "$VALIASES" | wc -l) "domains\c"
+ 	elif [[ -r "$VAR_NAMED" ]]; then
+		echo -e $(ls "$VAR_NAMED" | wc -l) "domains\c"
+	elif [[ -r "$NAMED_CONF" ]]; then
+		echo -e $(awk 'END{print NR}' $NAMED_CONF) "domains\c"
+	else
+		echo -e "Cant Read [ /etc/named.conf ]"
+	fi
+elif [[ -e "$NAMED_CONF" ]] && [[ -r "$NAMED_CONF" ]]; then
+	echo -e $(ls "$NAMED_CONF" | wc -l) "domains\c"
+else
+	echo -e "Cant Read [ /etc/named.conf ]\c"
+fi
+echo -e '"]}\c'
