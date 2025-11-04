@@ -1,0 +1,24 @@
+<?php
+include_once plugin_dir_path(__FILE__) . "constants.php";
+
+class Custom_Sitemap_Provider {
+
+    public function __construct() {
+        die('test');
+        // parent::__construct(SITEMAP);
+    }
+
+    public function get_url_list($page_num, $post_type = '') {
+        return [
+            [
+                'loc' => home_url("/".SITEMAP.".xml")
+            ]
+        ];
+    }
+
+    public function get_max_num_pages() {
+        return 1;
+    }
+}
+
+?>
